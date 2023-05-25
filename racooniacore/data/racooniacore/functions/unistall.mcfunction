@@ -1,2 +1,2 @@
-scoreboard objectives remove racoonia.empty
 scoreboard objectives remove racoonia.math
+scoreboard objectives remove racoonia.coinToss
