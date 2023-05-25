@@ -4,6 +4,7 @@ scoreboard players add @e[type=minecraft:marker,tag=racoonia.animation] racoonia
 
 execute as @e[type=minecraft:marker,tag=racoonia.animation.19bridge] at @s run function _racoonanimation:animations/19bridge/play
 execute as @e[type=minecraft:marker,tag=racoonia.animation.present] at @s run function _racoonanimation:animations/present/play
+# execute as @e[type=minecraft:marker,tag=yourAnimationTag] at @s run function _racoonanimation:animations/your-animation-folder/play
 
 # Animation calls end
 
