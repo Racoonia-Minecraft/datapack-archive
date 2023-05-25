@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Racoonanimation",
+        "description": "The animations system for racoonia packs.",
+        "icon": {
+            "item": "minecraft:firework_rocket"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:racoonia",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

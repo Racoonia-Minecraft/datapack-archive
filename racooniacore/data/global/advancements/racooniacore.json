@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Racoonia Core",
+        "description": "The core of all Racoonia datapacks.",
+        "icon": {
+            "item": "minecraft:compass"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:racoonia",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Racoonia Server Tools",
+        "description": "Different usefull tools for servers",
+        "icon": {
+            "item": "minecraft:iron_axe"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:racoonia",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

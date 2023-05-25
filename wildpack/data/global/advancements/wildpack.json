@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Wildpack",
+        "description": "The datapack for the 1.19.2 Project.",
+        "icon": {
+            "item": "minecraft:sculk_shrieker"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:racoonia",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

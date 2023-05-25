@@ -1,0 +1,1 @@
+give @s salmon_spawn_egg{display: {Name: '{"text":"Present","color":"gold","bold":true,"italic":false}', Lore: ['{"text":"You can now gift another"}', '{"text":"player something nice!"}']}, EntityTag: {id: "minecraft:marker", Tags: ["racoonia.place_present"]}} 1
