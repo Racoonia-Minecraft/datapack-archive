@@ -1,0 +1,4 @@
+function _packages:remove_packages
+
+scoreboard objectives remove racoonia.packages
+scoreboard objectives remove racoonia.package_rename_time
