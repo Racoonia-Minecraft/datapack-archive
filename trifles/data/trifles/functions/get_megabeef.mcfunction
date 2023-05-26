@@ -1,1 +1,1 @@
-give @s cooked_beef{display:{Name:'{"text":"Mega Beef","color":"aqua","italic":false}',Lore:['{"text":"Refills Hunger","color":"white","italic":false}','{"text":" "}','{"text":"\\"Have a break; have a steak.\\"","color":"gray"}']},CustomModelData:4000102,trifles:1b,trifles_megabeef:1b} 1
+give @s mushroom_stew{display:{Name:'{"text":"Mega Stew","color":"aqua","italic":false}',Lore:['{"text":"Refills Hunger","color":"white","italic":false}','{"text":" "}','{"text":"\\"Have a break; have a stew.\\"","color":"gray"}']},CustomModelData:4000102,trifles:1b,trifles_megastew:1b} 1
