@@ -1,1 +1,1 @@
-execute unless score @s trifles.pocketCatCooldown matches 1.. at @e[type=minecraft:creeper, distance=..15] at @s run function _trifles:pocketcat/alert
+execute unless score @s trifles.pocketcatCooldown matches 1.. at @e[type=minecraft:creeper, distance=..15] at @s run function _trifles:pocketcat/alert
