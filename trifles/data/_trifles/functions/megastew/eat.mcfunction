@@ -1,3 +1,7 @@
-effect give @s saturation 1 255 true
-execute if data entity @s SelectedItem run give @s mushroom_stew{display:{Name:'{"text":"Mega Stew","color":"aqua","italic":false}',Lore:['{"text":"Refills hunger","color":"white","italic":false}','{"text":" "}','{"text":"\\"Have a break; have a stew.\\"","color":"gray"}']},CustomModelData:4000102,trifles:1b,trifles_megastew:1b} 1
-execute unless data entity @s SelectedItem run item replace entity @s weapon.mainhand with mushroom_stew{display:{Name:'{"text":"Mega Stew","color":"aqua","italic":false}',Lore:['{"text":"Refills hunger","color":"white","italic":false}','{"text":" "}','{"text":"\\"Have a break; have a stew.\\"","color":"gray"}']},CustomModelData:4000102,trifles:1b,trifles_megastew:1b} 1
+#declare entity trifles
+
+playsound minecraft:entity.generic.eat master @a[distance=..10] ~ ~ ~
+playsound minecraft:entity.generic.drink master @a[distance=..10] ~ ~ ~
+playsound minecraft:entity.player.burp master @a[distance=..10] ~ ~ ~
+effect give @s saturation 1 3 true
+execute store result score @s trifles.megastewCooldown run scoreboard players get trifles trifles.megastewCooldown
