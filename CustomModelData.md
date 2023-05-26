@@ -14,3 +14,4 @@
 ### Trifles
 
 - `4000101`: Pocket Cat
+- `4000102`: Mega Beef

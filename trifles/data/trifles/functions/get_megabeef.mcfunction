@@ -1,0 +1,1 @@
+give @s cooked_beef{display:{Name:'{"text":"Mega Beef","color":"aqua","italic":false}',Lore:['{"text":"Refills Hunger","color":"white","italic":false}','{"text":" "}','{"text":"\\"Have a break; have a steak.\\"","color":"gray"}']},CustomModelData:4000102,trifles:1b,trifles_megabeef:1b} 1
