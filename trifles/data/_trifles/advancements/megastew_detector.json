@@ -1,9 +1,9 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:cooked_beef"
+        "item": "minecraft:mushroom_stew"
       },
-      "title": "Mega Beef Detector",
+      "title": "Mega Stew Detector",
       "description": "",
       "show_toast": false,
       "announce_to_chat": false,
@@ -14,7 +14,7 @@
         "trigger": "minecraft:consume_item",
         "conditions": {
           "item": {
-            "nbt": "{trifles_megabeef:1b}"
+            "nbt": "{trifles_megastew:1b}"
           }
         }
       }
