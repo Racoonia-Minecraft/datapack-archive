@@ -1,4 +1,4 @@
-execute if score @s trifles.diceAnimation matches 7 run execute as @s at @s run tp @s ~ ~ ~ 90 ~
+execute if score @s trifles.diceAnimation matches 7 run execute as @s at @s run tp @s ~ ~ ~ -90 ~
 execute if score @s trifles.diceAnimation matches 7 run data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;1026356868,-432783094,-1569227431,1768196456],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWJlNjc3YTFlMTYzYTlmOWUwYWZjZmNkZTBjOTUzNjU1NTM0NzhmOTlhYjExMTUyYTRkOTdjZjg1ZGJlNjZmIn19fQ=="}]}}}}]}
 
 execute if score @s trifles.diceAnimation matches 6 run execute as @s at @s run tp @s ~ ~ ~ 0 ~
