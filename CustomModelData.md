@@ -16,3 +16,7 @@
 - `4000101`: Pocket Cat
 - `4000102`: Mega Stew
 - `4000103`: Dice
+
+### Milestones
+
+- `4000201`: Vanilla Tweak Bed
