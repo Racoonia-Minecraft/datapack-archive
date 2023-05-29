@@ -26,15 +26,15 @@ execute if score @s trifles.diceAnimation matches 6 run data merge entity @s {Ar
 execute if score @s trifles.diceAnimation matches 1 run function _trifles:dice/roll_result
 
 # sound
-execute if score @s trifles.diceAnimation matches 37..52 at @s run playsound minecraft:block.note_block.hat master @a[distance=..20] ~ ~ ~ 3
-execute if score @s trifles.diceAnimation matches 35 at @s run playsound minecraft:block.note_block.hat master @a[distance=..20] ~ ~ ~ 3
-execute if score @s trifles.diceAnimation matches 33 at @s run playsound minecraft:block.note_block.hat master @a[distance=..20] ~ ~ ~ 3
-execute if score @s trifles.diceAnimation matches 31 at @s run playsound minecraft:block.note_block.hat master @a[distance=..20] ~ ~ ~ 3
-execute if score @s trifles.diceAnimation matches 28 at @s run playsound minecraft:block.note_block.hat master @a[distance=..20] ~ ~ ~ 3
-execute if score @s trifles.diceAnimation matches 26 at @s run playsound minecraft:block.note_block.hat master @a[distance=..20] ~ ~ ~ 3
-execute if score @s trifles.diceAnimation matches 22 at @s run playsound minecraft:block.note_block.hat master @a[distance=..20] ~ ~ ~ 3
-execute if score @s trifles.diceAnimation matches 19 at @s run playsound minecraft:block.note_block.hat master @a[distance=..20] ~ ~ ~ 3
-execute if score @s trifles.diceAnimation matches 15 at @s run playsound minecraft:block.note_block.hat master @a[distance=..20] ~ ~ ~ 3
-execute if score @s trifles.diceAnimation matches 11 at @s run playsound minecraft:block.note_block.hat master @a[distance=..20] ~ ~ ~ 3
-execute if score @s trifles.diceAnimation matches 6 at @s run playsound minecraft:block.note_block.hat master @a[distance=..20] ~ ~ ~ 3
-execute if score @s trifles.diceAnimation matches 1 at @s run playsound minecraft:block.note_block.hat master @a[distance=..20] ~ ~ ~ 3 0.5
+execute if score @s[tag=!global.ignore,tag=!global.ignore.gui] trifles.diceAnimation matches 37..52 at @s run playsound minecraft:block.note_block.hat master @a[distance=..20] ~ ~ ~ 3
+execute if score @s[tag=!global.ignore,tag=!global.ignore.gui] trifles.diceAnimation matches 35 at @s run playsound minecraft:block.note_block.hat master @a[distance=..20] ~ ~ ~ 3
+execute if score @s[tag=!global.ignore,tag=!global.ignore.gui] trifles.diceAnimation matches 33 at @s run playsound minecraft:block.note_block.hat master @a[distance=..20] ~ ~ ~ 3
+execute if score @s[tag=!global.ignore,tag=!global.ignore.gui] trifles.diceAnimation matches 31 at @s run playsound minecraft:block.note_block.hat master @a[distance=..20] ~ ~ ~ 3
+execute if score @s[tag=!global.ignore,tag=!global.ignore.gui] trifles.diceAnimation matches 28 at @s run playsound minecraft:block.note_block.hat master @a[distance=..20] ~ ~ ~ 3
+execute if score @s[tag=!global.ignore,tag=!global.ignore.gui] trifles.diceAnimation matches 26 at @s run playsound minecraft:block.note_block.hat master @a[distance=..20] ~ ~ ~ 3
+execute if score @s[tag=!global.ignore,tag=!global.ignore.gui] trifles.diceAnimation matches 22 at @s run playsound minecraft:block.note_block.hat master @a[distance=..20] ~ ~ ~ 3
+execute if score @s[tag=!global.ignore,tag=!global.ignore.gui] trifles.diceAnimation matches 19 at @s run playsound minecraft:block.note_block.hat master @a[distance=..20] ~ ~ ~ 3
+execute if score @s[tag=!global.ignore,tag=!global.ignore.gui] trifles.diceAnimation matches 15 at @s run playsound minecraft:block.note_block.hat master @a[distance=..20] ~ ~ ~ 3
+execute if score @s[tag=!global.ignore,tag=!global.ignore.gui] trifles.diceAnimation matches 11 at @s run playsound minecraft:block.note_block.hat master @a[distance=..20] ~ ~ ~ 3
+execute if score @s[tag=!global.ignore,tag=!global.ignore.gui] trifles.diceAnimation matches 6 at @s run playsound minecraft:block.note_block.hat master @a[distance=..20] ~ ~ ~ 3
+execute if score @s[tag=!global.ignore,tag=!global.ignore.gui] trifles.diceAnimation matches 1 at @s run playsound minecraft:block.note_block.hat master @a[distance=..20] ~ ~ ~ 3 0.5

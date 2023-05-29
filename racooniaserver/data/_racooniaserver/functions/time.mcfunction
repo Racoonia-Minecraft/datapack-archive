@@ -1,4 +1,4 @@
-execute store result score game racoonia.time run time query gametime
+execute store result score game racooniaserver.time run time query gametime
 # day seconds
 execute store result score input2 racoonia.math run time query daytime
 scoreboard players set input1 racoonia.math 36
@@ -15,13 +15,13 @@ scoreboard players operation result racoonia.math = input2 racoonia.math
 scoreboard players operation result racoonia.math /= input1 racoonia.math
 # seconds
 scoreboard players operation input2 racoonia.math %= input1 racoonia.math
-scoreboard players operation seconds racoonia.time = input2 racoonia.math
+scoreboard players operation seconds racooniaserver.time = input2 racoonia.math
 # day hours
 scoreboard players operation input2 racoonia.math = result racoonia.math
 scoreboard players operation input2 racoonia.math /= input1 racoonia.math
 # minutes
 scoreboard players operation result racoonia.math %= input1 racoonia.math
-scoreboard players operation minutes racoonia.time = result racoonia.math
+scoreboard players operation minutes racooniaserver.time = result racoonia.math
 # hours
 scoreboard players operation input2 racoonia.math %= input1 racoonia.math
-scoreboard players operation hours racoonia.time = input2 racoonia.math
+scoreboard players operation hours racooniaserver.time = input2 racoonia.math

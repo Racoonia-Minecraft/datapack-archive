@@ -1,1 +1,1 @@
-give @s writable_book{display:{Name:'{"text":"New Issue","color":"dark_red","italic":false}',Lore:['{"text":"Simply write your"}','{"text":"issue in this book!"}']},racoonia_issue_form:1b,pages:["Write your issue on the second page!"]} 1
+give @s writable_book{display:{Name:'{"text":"New Issue","color":"dark_red","italic":false}',Lore:['{"text":"Simply write your"}','{"text":"issue in this book!"}']},racooniaserver:{issue_form:1b},pages:["Write your issue on the second page!"]} 1

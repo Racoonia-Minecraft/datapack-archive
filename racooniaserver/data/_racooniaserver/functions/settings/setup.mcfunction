@@ -4,8 +4,8 @@
 #declare entity performanceProfile
 #declare entity permaHaste
 
-execute unless score warnPlayerKill racoonia.settingValue matches 1.. run scoreboard players set warnPlayerKill racoonia.settingValue 0
-execute unless score blockEnd racoonia.settingValue matches 1.. run scoreboard players set blockEnd racoonia.settingValue 0
-execute unless score tablistDeaths racoonia.settingValue matches 1.. run scoreboard players set tablistDeaths racoonia.settingValue 0
-execute unless score performanceProfile racoonia.settingValue matches 1.. run scoreboard players set performanceProfile racoonia.settingValue 0
-execute unless score permaHaste racoonia.settingValue matches 1.. run scoreboard players set permaHaste racoonia.settingValue 0
+execute unless score warnPlayerKill racooniaserver.settingValue matches 1.. run scoreboard players set warnPlayerKill racooniaserver.settingValue 0
+execute unless score blockEnd racooniaserver.settingValue matches 1.. run scoreboard players set blockEnd racooniaserver.settingValue 0
+execute unless score tablistDeaths racooniaserver.settingValue matches 1.. run scoreboard players set tablistDeaths racooniaserver.settingValue 0
+execute unless score performanceProfile racooniaserver.settingValue matches 1.. run scoreboard players set performanceProfile racooniaserver.settingValue 0
+execute unless score permaHaste racooniaserver.settingValue matches 1.. run scoreboard players set permaHaste racooniaserver.settingValue 0

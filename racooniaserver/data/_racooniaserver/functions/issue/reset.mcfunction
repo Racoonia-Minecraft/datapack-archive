@@ -1,1 +1,3 @@
-data modify storage racoonia:issue issues set value []
+#declare storage racooniaserver
+
+data modify storage racooniaserver issues set value []

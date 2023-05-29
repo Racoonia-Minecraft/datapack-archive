@@ -1,1 +1,1 @@
-scoreboard objectives remove racoonia.animationStep
+scoreboard objectives remove racoonanimation.frame

@@ -1,4 +1,6 @@
 function _libament:remove_presents
 
-scoreboard objectives remove racoonia.presents
-scoreboard objectives remove racoonia.present_rename_time
+scoreboard objectives remove libament.talked_villager
+scoreboard objectives remove libament.raycast_steps
+scoreboard objectives remove libament.rename_time
+scoreboard objectives remove libament.allow_opening
