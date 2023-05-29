@@ -10,7 +10,8 @@ execute as @e[tag=trifles_dice_spawn] run function _trifles:dice/spawn
 execute as @e[tag=trifles_dice_rolling] run function _trifles:dice/rolling
 
 # Right click detection
-execute as @a[scores={trifles.fungusClick=1..}] run function _trifles:click_fungus
+execute as @a[scores={trifles.fungusClick=1..}] run function _trifles:click/fungus
 scoreboard players reset @a trifles.fungusClick
+scoreboard players reset @a trifles.enderEyeHoldClick
 
 schedule function _trifles:update20t 20t
