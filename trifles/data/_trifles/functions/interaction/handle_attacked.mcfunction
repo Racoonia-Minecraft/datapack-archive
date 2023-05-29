@@ -1,5 +1,3 @@
-execute at @s run particle angry_villager ~ ~1.5 ~ 0 0 0 0 1
-
-execute on attacker run say left click
+execute as @s[tag=trifles.dice_interaction] at @s positioned ~ ~-1.25 ~ as @e[type=minecraft:armor_stand,tag=trifles.dice,distance=..0.1] run function _trifles:dice/break
 
 data remove entity @s attack

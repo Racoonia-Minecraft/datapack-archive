@@ -1,5 +1,3 @@
-execute at @s run particle happy_villager ~ ~1.5 ~ 0 0 0 0 1
-
-execute on target run say right click
+execute as @s[tag=trifles.dice_interaction] at @s positioned ~ ~-1.25 ~ as @e[type=minecraft:armor_stand,tag=trifles.dice,distance=..0.1] run function _trifles:dice/roll
 
 data remove entity @s interaction
