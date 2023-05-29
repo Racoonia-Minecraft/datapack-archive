@@ -6,7 +6,7 @@ execute as @a[scores={trifles.hasPocketcat=1..}] unless score @s trifles.pocketc
 scoreboard players remove @a[scores={trifles.pocketcatCooldown=1..}] trifles.pocketcatCooldown 1
 
 # Dice
-execute as @e[tag=trifles.dice_spawn] run function _trifles:dice/spawn
+execute as @e[tag=trifles.dice_spawn] at @s run function _trifles:dice/spawn
 execute as @e[tag=trifles.dice_rolling] run function _trifles:dice/rolling
 
 # Right click detection
