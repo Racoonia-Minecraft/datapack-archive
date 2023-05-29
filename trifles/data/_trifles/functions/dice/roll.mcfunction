@@ -1,4 +1,5 @@
 #declare entity trifles
 
 tag @s add trifles.dice_rolling
-execute store result score @s trifles.diceAnimation run scoreboard players get trifles trifles.diceAnimation
+scoreboard players set @s racoonia.animationStep 20
+execute unless score trifles trifles.animationLoop matches 1 run function _trifles:dice/animation/start_loop
