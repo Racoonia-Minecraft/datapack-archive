@@ -19,4 +19,8 @@
 
 ### Milestones
 
-- `4000201`: Vanilla Tweak Bed
+- `4000200`: Trophy
+- `4000201`: Stone Trophy Tier 1
+- `4000202`: Stone Trophy Tier 2
+- `4000203`: Stone Trophy Tier 3
+- `400020X`: Vanilla Tweak Bed

@@ -1,19 +1,22 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:cookie"
+            "item": "minecraft:iron_axe"
         },
-        "title": "Don't cry!",
-        "description": "Here, have a cookie!",
+        "title": "Lorem ipsum",
+        "description": "Lorem ipsum dolor sit amet",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": true
     },
-    "parent": "milestones:root",
+    "parent": "milestones:kill/teaser",
     "criteria": {
         "trigger": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "function": "_milestones:tier/bronze"
     }
 }

@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:cookie"
+            "item": "minecraft:feather"
         },
-        "title": "Don't cry!",
-        "description": "Here, have a cookie!",
+        "title": "Lorem ipsum",
+        "description": "Lorem ipsum dolor sit amet",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,
@@ -15,5 +15,8 @@
         "trigger": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "function": "_milestones:tier/teaser"
     }
 }

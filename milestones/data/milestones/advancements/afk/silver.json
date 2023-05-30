@@ -1,19 +1,22 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:spruce_door"
+            "item": "minecraft:gray_stained_glass"
         },
         "title": "Lorem ipsum",
         "description": "Lorem ipsum dolor sit amet",
-        "frame": "task",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": true
     },
-    "parent": "milestones:root",
+    "parent": "milestones:afk/bronze",
     "criteria": {
         "trigger": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "function": "_milestones:tier/silver"
     }
 }
