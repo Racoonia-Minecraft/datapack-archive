@@ -16,3 +16,8 @@
 - `4000101`: Pocket Cat
 - `4000102`: Mega Stew
 - `4000103`: Dice
+
+### Simple Milestones
+- `4000201`: Stone Trophy Tier1
+- `4000202`: Stone Trophy Tier2
+- `4000203`: Stone Trophy Tier3
