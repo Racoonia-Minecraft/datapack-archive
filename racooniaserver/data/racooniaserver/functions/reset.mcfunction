@@ -1,21 +1,27 @@
-#declare entity warnPlayerKill
-#declare entity blockEnd
-#declare entity tablistDeaths
-#declare entity performanceProfile
-#declare entity currentid
-#declare entity permaHaste
+scoreboard players reset * racooniaserver.deathCount
 
-scoreboard players set warnPlayerKill racooniaserver.settingValue 0
-scoreboard players set blockEnd racooniaserver.settingValue 0
-scoreboard players set tablistDeaths racooniaserver.settingValue 0
-scoreboard players set performanceProfile racooniaserver.settingValue 0
-scoreboard players set permaHaste racooniaserver.settingValue 0
-function _racooniaserver:settings/setup
-scoreboard players reset * racooniaserver.displayCoords
-scoreboard players reset * racooniaserver.coordinates_hud
-scoreboard players reset * issue
-scoreboard players reset * racooniaserver.pos
-scoreboard players reset * racooniaserver.time
-scoreboard players set currentid racooniaserver.playerid 2
-tag @e remove racooniaserver.permaHaste
-tag @e remove racooniaserver.permaSaturation
+# Reset AFK Detection
+scoreboard players reset * racooniaserver.afkTimer
+
+scoreboard players reset * racooniaserver.climb
+scoreboard players reset * racooniaserver.crouch
+scoreboard players reset * racooniaserver.fly
+scoreboard players reset * racooniaserver.sprint
+scoreboard players reset * racooniaserver.swim
+scoreboard players reset * racooniaserver.walk
+scoreboard players reset * racooniaserver.walk_on_water
+scoreboard players reset * racooniaserver.walk_under_water
+scoreboard players reset * racooniaserver.boat
+scoreboard players reset * racooniaserver.elytra
+scoreboard players reset * racooniaserver.horse
+scoreboard players reset * racooniaserver.minecart
+scoreboard players reset * racooniaserver.pig
+scoreboard players reset * racooniaserver.strider
+scoreboard players reset * racooniaserver.jump
+scoreboard players reset * racooniaserver.leave
+
+# Reset Settings
+scoreboard players reset * racooniaserver.setting
+
+scoreboard players set $weak_creepers racooniaserver.setting 0
+scoreboard players set $block_end racooniaserver.setting 0
