@@ -18,6 +18,7 @@
 - `4000103`: Dice
 
 ### Simple Milestones
+- `4000200`: Trophy
 - `4000201`: Stone Trophy Tier1
 - `4000202`: Stone Trophy Tier2
 - `4000203`: Stone Trophy Tier3

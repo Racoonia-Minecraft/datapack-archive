@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:totem_of_undying"
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:4000200}"
     },
     "title": "Milestones",
     "description": "Milestones for everything",

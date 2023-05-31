@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:spyglass"
         },
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet",
+        "title": "Barrelman",
+        "description": "No end in sight",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": false,

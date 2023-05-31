@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:iron_chestplate"
         },
-        "title": "Lorem ipsum",
+        "title": "Armorer",
         "description": "Lorem ipsum dolor sit amet",
         "frame": "task",
         "show_toast": true,

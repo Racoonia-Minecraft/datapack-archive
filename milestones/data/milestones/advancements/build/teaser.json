@@ -4,7 +4,7 @@
             "item": "minecraft:spruce_door"
         },
         "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet",
+        "description": "Let yourself in.",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,
