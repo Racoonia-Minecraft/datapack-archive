@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Open Data",
+        "description": "Allows non-ops to change specific data fields of items.",
+        "icon": {
+            "item": "minecraft:writable_book"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:racoonia",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

@@ -1,4 +1,5 @@
 function _packages:remove_packages
 
-scoreboard objectives remove racoonia.packages
-scoreboard objectives remove racoonia.package_rename_time
+scoreboard objectives remove packages.talked_villager
+scoreboard objectives remove packages.raycast_steps
+scoreboard objectives remove packages.rename_time

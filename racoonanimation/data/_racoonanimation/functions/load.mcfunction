@@ -1,3 +1,3 @@
-scoreboard objectives add racoonia.animationStep dummy
+scoreboard objectives add racoonanimation.frame dummy
 
 function _racoonanimation:update20t

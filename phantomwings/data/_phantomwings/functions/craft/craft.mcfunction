@@ -4,4 +4,4 @@ execute if entity @e[tag=!phantomwings.spawned] as @e[type=minecraft:item,distan
 execute if entity @e[tag=!phantomwings.spawned] as @e[type=minecraft:item,distance=..0.5,nbt={Item: {id: "minecraft:golden_chestplate", Count: 1b}},sort=nearest,limit=1] run function _phantomwings:craft/gold
 execute if entity @e[tag=!phantomwings.spawned] as @e[type=minecraft:item,distance=..0.5,nbt={Item: {id: "minecraft:diamond_chestplate", Count: 1b}},sort=nearest,limit=1] run function _phantomwings:craft/diamond
 execute if entity @e[tag=!phantomwings.spawned] as @e[type=minecraft:item,distance=..0.5,nbt={Item: {id: "minecraft:netherite_chestplate", Count: 1b}},sort=nearest,limit=1] run function _phantomwings:craft/netherite
-kill @s[tag=phantomwings.spawned]
+kill @s[tag=phantomwings.spawned,tag=!global.ignore,tag=!global.ignore.kill]

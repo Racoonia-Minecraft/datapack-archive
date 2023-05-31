@@ -1,41 +1,27 @@
-#declare objective racoonia.math
-#declare entity warnPlayerKill
-#declare entity blockEnd
-#declare entity tablistDeaths
-#declare entity performanceProfile
-#declare entity currentid
-#declare entity permaHaste
-#declare entity math1
-#declare entity math2
-#declare entity result
-#declare entity seconds
-#declare entity minutes
-#declare entity hours
-#declare entity game
-#declare entity input1
-#declare entity input2
-#declare entity result
+scoreboard players reset * racooniaserver.deathCount
 
-scoreboard players set warnPlayerKill racoonia.settingValue 0
-scoreboard players set blockEnd racoonia.settingValue 0
-scoreboard players set tablistDeaths racoonia.settingValue 0
-scoreboard players set performanceProfile racoonia.settingValue 0
-scoreboard players set permaHaste racoonia.settingValue 0
-function _racoonia:settings/setup
-scoreboard players reset @a racoonia.displayCoords
-scoreboard players reset @a racoonia.coordinates_hud
-scoreboard players reset @a issue
-scoreboard players reset x racoonia.pos
-scoreboard players reset y racoonia.pos
-scoreboard players reset z racoonia.pos
-scoreboard players reset seconds racoonia.time
-scoreboard players reset minutes racoonia.time
-scoreboard players reset hours racoonia.time
-scoreboard players reset game racoonia.time
-scoreboard players reset input1 racoonia.math
-scoreboard players reset input2 racoonia.math
-scoreboard players reset result racoonia.math
-scoreboard players set currentid racoonia.playerid 2
-tag @a remove racoonia.admin
-tag @a remove racoonia.permaHaste
-tag @a remove racoonia.permaSaturation
+# Reset AFK Detection
+scoreboard players reset * racooniaserver.afkTimer
+
+scoreboard players reset * racooniaserver.climb
+scoreboard players reset * racooniaserver.crouch
+scoreboard players reset * racooniaserver.fly
+scoreboard players reset * racooniaserver.sprint
+scoreboard players reset * racooniaserver.swim
+scoreboard players reset * racooniaserver.walk
+scoreboard players reset * racooniaserver.walk_on_water
+scoreboard players reset * racooniaserver.walk_under_water
+scoreboard players reset * racooniaserver.boat
+scoreboard players reset * racooniaserver.elytra
+scoreboard players reset * racooniaserver.horse
+scoreboard players reset * racooniaserver.minecart
+scoreboard players reset * racooniaserver.pig
+scoreboard players reset * racooniaserver.strider
+scoreboard players reset * racooniaserver.jump
+scoreboard players reset * racooniaserver.leave
+
+# Reset Settings
+scoreboard players reset * racooniaserver.setting
+
+scoreboard players set $weak_creepers racooniaserver.setting 0
+scoreboard players set $block_end racooniaserver.setting 0
