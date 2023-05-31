@@ -21,3 +21,12 @@
 - `4000201`: Stone Trophy Tier1
 - `4000202`: Stone Trophy Tier2
 - `4000203`: Stone Trophy Tier3
+- `4000204`: Placing Trophy Tier1
+- `4000205`: Placing Trophy Tier2
+- `4000206`: Placing Trophy Tier3
+- `4000207`: Killing Trophy Tier1
+- `4000208`: Killing Trophy Tier2
+- `4000209`: Killing Trophy Tier3
+- `4000210`: Dieing Trophy Tier1
+- `4000211`: Dieing Trophy Tier2
+- `4000212`: Dieing Trophy Tier3
