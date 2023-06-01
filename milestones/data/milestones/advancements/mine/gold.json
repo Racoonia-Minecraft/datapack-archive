@@ -17,6 +17,6 @@
         }
     },
     "rewards": {
-        "function": "_milestones:tier/gold"
+        "function": "_milestones:tier/tier3_mine"
     }
 }
