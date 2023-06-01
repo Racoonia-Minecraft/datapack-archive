@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:spyglass"
+            "item": "minecraft:compass"
         },
-        "title": "Barrelman",
-        "description": "No end in sight",
+        "title": "Lorem Ipsum",
+        "description": "Knowing your way around",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": false,
