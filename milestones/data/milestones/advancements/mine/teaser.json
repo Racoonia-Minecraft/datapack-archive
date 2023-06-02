@@ -17,6 +17,6 @@
         }
     },
     "rewards": {
-        "function": "_milestones:tier/tier0_mine"
+        "function": "_milestones:tier/mine_tier0"
     }
 }

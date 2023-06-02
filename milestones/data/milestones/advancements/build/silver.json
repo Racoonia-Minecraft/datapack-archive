@@ -17,6 +17,6 @@
         }
     },
     "rewards": {
-        "function": "_milestones:tier/silver"
+        "function": "_milestones:tier/build_tier2"
     }
 }

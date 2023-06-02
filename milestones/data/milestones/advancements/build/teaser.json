@@ -15,5 +15,8 @@
         "trigger": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "function": "_milestones:tier/build_tier0"
     }
 }
