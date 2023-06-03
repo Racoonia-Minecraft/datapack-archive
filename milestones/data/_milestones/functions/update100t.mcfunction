@@ -32,12 +32,25 @@ advancement grant @a[scores={milestones.enchanted=3..}] until milestones:enchant
 advancement grant @a[scores={milestones.enchanted=4..}] until milestones:enchant/gold
 
 # Fly Milestone
+advancement grant @a[scores={milestones.fly=1..}] until milestones:fly/teaser
+advancement grant @a[scores={milestones.fly=2..}] until milestones:fly/bronze
+advancement grant @a[scores={milestones.fly=3..}] until milestones:fly/silver
+advancement grant @a[scores={milestones.fly=4..}] until milestones:fly/gold
 
 # Kill Milestone
+advancement grant @a[scores={milestones.kill=1..}] until milestones:kill/teaser
+advancement grant @a[scores={milestones.kill=2..}] until milestones:kill/bronze
+advancement grant @a[scores={milestones.kill=3..}] until milestones:kill/silver
+advancement grant @a[scores={milestones.kill=4..}] until milestones:kill/gold
 
 # Mine Milestone
 
 # Play Milestone
+execute as @a run function _milestones:active_time
+advancement grant @a[scores={milestones.activeTime=1..}] until milestones:enchant/teaser
+advancement grant @a[scores={milestones.activeTime=2..}] until milestones:enchant/bronze
+advancement grant @a[scores={milestones.activeTime=3..}] until milestones:enchant/silver
+advancement grant @a[scores={milestones.activeTime=4..}] until milestones:enchant/gold
 
 # Villager Milestone
 advancement grant @a[scores={milestones.villagerTrades=1..}] until milestones:villager/teaser
