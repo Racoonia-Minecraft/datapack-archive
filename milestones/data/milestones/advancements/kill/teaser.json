@@ -17,6 +17,9 @@
         }
     },
     "rewards": {
-        "function": "_milestones:tier/teaser"
+        "function": "_milestones:tier/teaser",
+        "loot": [
+            "milestones:kill/teaser"
+        ]
     }
 }

@@ -17,6 +17,9 @@
         }
     },
     "rewards": {
-        "function": "_milestones:tier/silver"
+        "function": "_milestones:tier/silver",
+        "loot": [
+            "milestones:walk/silver"
+        ]
     }
 }

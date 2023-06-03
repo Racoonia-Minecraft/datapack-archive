@@ -1,0 +1,1 @@
+execute at @s run summon firework_rocket ~ ~0.5 ~ {LifeTime:30,FireworksItem:{id:"firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:2,Flicker:1b,Trail:1b,Colors:[I;16499638],FadeColors:[I;16554370]},{Type:1,Flicker:1b,Trail:1b,Colors:[I;15170646],FadeColors:[I;12671542]},{Type:0,Flicker:1b,Trail:1b,Colors:[I;10243633],FadeColors:[I;10241321]}]}}}}

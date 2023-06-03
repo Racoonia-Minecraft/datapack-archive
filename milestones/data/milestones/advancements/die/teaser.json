@@ -15,5 +15,11 @@
         "trigger": {
             "trigger": "minecraft:impossible"
         }
+    },
+    "rewards": {
+        "function": "_milestones:tier/teaser",
+        "loot": [
+            "milestones:die/teaser"
+        ]
     }
 }

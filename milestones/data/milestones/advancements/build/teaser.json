@@ -17,6 +17,9 @@
         }
     },
     "rewards": {
-        "function": "_milestones:tier/build_tier0"
+        "function": "_milestones:tier/teaser",
+        "loot": [
+            "milestones:build/teaser"
+        ]
     }
 }

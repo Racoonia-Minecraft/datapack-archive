@@ -17,6 +17,9 @@
         }
     },
     "rewards": {
-        "function": "_milestones:tier/bronze"
+        "function": "_milestones:tier/bronze",
+        "loot": [
+            "milestones:eat/bronze"
+        ]
     }
 }

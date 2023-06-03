@@ -17,6 +17,9 @@
         }
     },
     "rewards": {
-        "function": "_milestones:tier/build_tier3"
+        "function": "_milestones:tier/gold",
+        "loot": [
+            "milestones:build/gold"
+        ]
     }
 }
