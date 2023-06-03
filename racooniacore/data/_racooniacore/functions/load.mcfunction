@@ -14,6 +14,11 @@
 #declare entity $e6
 #declare entity $phi6
 
+# Setup scoreboard
+scoreboard objectives add racoonia.math dummy
+scoreboard objectives add racoonia.coinToss dummy
+
+# Setup scoreboard constants
 scoreboard players set $2 racoonia.math 2
 scoreboard players set $10 racoonia.math 10
 scoreboard players set $20 racoonia.math 20
