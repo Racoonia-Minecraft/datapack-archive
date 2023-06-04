@@ -59,6 +59,12 @@ advancement grant @a[scores={milestones.villagerTrades=3..}] until milestones:vi
 advancement grant @a[scores={milestones.villagerTrades=4..}] until milestones:villager/gold
 
 # Walk Milestone
+scoreboard players set @a milestones.walk 0
+execute as @a run function _milestones:walk_distance
+advancement grant @a[scores={milestones.walk=1000..}] until milestones:walk/teaser
+advancement grant @a[scores={milestones.walk=2000..}] until milestones:walk/bronze
+advancement grant @a[scores={milestones.walk=3000..}] until milestones:walk/silver
+advancement grant @a[scores={milestones.walk=4000..}] until milestones:walk/gold
 
 # XP Milestone
 
