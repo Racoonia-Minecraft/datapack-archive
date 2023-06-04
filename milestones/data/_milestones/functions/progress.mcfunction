@@ -53,10 +53,10 @@ execute if score @s milestones.progress < @s milestones.target run tellraw @s ["
 execute if score @s milestones.progress >= @s milestones.target run tellraw @s ["",{"text":"Items Enchanted: ","color":"white"},{"text":"COMPLETE","color":"gold"}]
 
 # Fly
-scoreboard players set @s milestones.target 1
-scoreboard players set @s[scores={milestones.fly=1..}] milestones.target 2
-scoreboard players set @s[scores={milestones.fly=2..}] milestones.target 3
-scoreboard players set @s[scores={milestones.fly=3..}] milestones.target 4
+scoreboard players set @s milestones.target 10
+scoreboard players set @s[scores={milestones.fly=10..}] milestones.target 20
+scoreboard players set @s[scores={milestones.fly=20..}] milestones.target 30
+scoreboard players set @s[scores={milestones.fly=30..}] milestones.target 40
 execute store result score @s milestones.progress run scoreboard players get @s milestones.fly
 function _milestones:progress_percentage
 execute if score @s milestones.progress < @s milestones.target run tellraw @s ["",{"text":"Flight Distance:   ","color":"white"},{"score":{"name":"@s","objective":"milestones.progress"},"color":"green"},"/",{"score":{"name":"@s","objective":"milestones.target"},"color":"aqua"}," - ",{"score":{"name":"@s","objective":"milestones.percentage"},"color":"yellow"},{"text":"%","color":"yellow"}]
