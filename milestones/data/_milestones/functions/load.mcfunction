@@ -1,3 +1,4 @@
+# Scoreboards for milestones functionality
     # Play time in ticks
 scoreboard objectives add milestones.playtime custom:play_time
     # Distance traveled by walking in cm
@@ -6,7 +7,6 @@ scoreboard objectives add milestones.walk_only custom:walk_one_cm
 scoreboard objectives add milestones.sprint custom:sprint_one_cm
     # Distance traveled by crouch in cm
 scoreboard objectives add milestones.crouch custom:crouch_one_cm
-
 
 # Milestone scoreboards
     # AFK time is in seconds
@@ -28,7 +28,7 @@ scoreboard objectives add milestones.kill custom:mob_kills
     # Active play time in seconds
 scoreboard objectives add milestones.activeTime dummy
     # Amount of villager trades
-scoreboard objectives add milestones.villagerTrdes custom:minecraft.traded_with_villager
+scoreboard objectives add milestones.villagerTrades custom:minecraft.traded_with_villager
     # Distance traveled by walking, sprinting or sneaking in cm
 scoreboard objectives add milestones.walk dummy
 
