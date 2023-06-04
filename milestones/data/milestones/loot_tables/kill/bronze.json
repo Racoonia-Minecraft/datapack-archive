@@ -5,13 +5,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone"
+          "name": "minecraft:iron_axe"
         }
       ],
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{}"
+          "tag": "{display:{Name:'{\"text\":\"Bronze Killing Trophy\",\"color\":\"#C15A36\",\"italic\":false}',Lore:['{\"text\":\"A trophy for killing 15,000 mobs.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Lorem ipsum:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Lorem ipsum dolor sit amet\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000207}"
         }
       ]
     }

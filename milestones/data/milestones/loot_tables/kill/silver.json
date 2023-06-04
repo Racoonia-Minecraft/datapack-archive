@@ -5,13 +5,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone"
+          "name": "minecraft:crossbow"
         }
       ],
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{}"
+          "tag": "{display:{Name:'{\"text\":\"Silver Killing Trophy\",\"color\":\"#D8D8D8\",\"italic\":false}',Lore:['{\"text\":\"A trophy for killing 30,000 mobs.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Lorem ipsum:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Lorem ipsum dolor sit amet\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000208}"
         }
       ]
     }
