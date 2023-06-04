@@ -1,5 +1,5 @@
 # Heading
-tellraw @s {"text":"Milestones Progress:","bold":true,"underlined":true,"color":"gold"}
+tellraw @s {"text":"Milestones Progress:","bold":true,"color":"gold"}
 
 # AFK
 scoreboard players set @s milestones.target 1
