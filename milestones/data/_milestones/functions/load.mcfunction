@@ -1,12 +1,15 @@
 # Scoreboards for milestones functionality
     # Play time in ticks
     scoreboard objectives add milestones.playtime custom:play_time
-    # Distance traveled by walking in cm
-    scoreboard objectives add milestones.walk_only custom:walk_one_cm
-    # Distance traveled by sprinting in cm
-    scoreboard objectives add milestones.sprint custom:sprint_one_cm
-    # Distance traveled by crouch in cm
-    scoreboard objectives add milestones.crouch custom:crouch_one_cm
+    # Distance traveled by walking, sprinting, sneaking or jumping in cm
+        # Distance traveled by walking in cm
+        scoreboard objectives add milestones.walk_only custom:walk_one_cm
+        # Distance traveled by sprinting in cm
+        scoreboard objectives add milestones.sprint custom:sprint_one_cm
+        # Distance traveled by crouch in cm
+        scoreboard objectives add milestones.crouch custom:crouch_one_cm
+        # Distance traveled by jumping in cm
+        scoreboard objectives add milestones.jump custom:fly_one_cm
     # Different types of stone mined
         # Amount of stone blocks mined
         scoreboard objectives add milestones.mine.stone mined:stone
