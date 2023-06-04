@@ -20,3 +20,6 @@ scoreboard objectives remove racooniaserver.pig
 scoreboard objectives remove racooniaserver.strider
 scoreboard objectives remove racooniaserver.jump
 scoreboard objectives remove racooniaserver.leave
+
+scoreboard objectives remove racooniaserver.x_rotation
+scoreboard objectives remove racooniaserver.y_rotation

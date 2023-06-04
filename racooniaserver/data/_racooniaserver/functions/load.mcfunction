@@ -24,6 +24,9 @@ scoreboard objectives add racooniaserver.strider minecraft.custom:minecraft.stri
 scoreboard objectives add racooniaserver.jump minecraft.custom:minecraft.jump
 scoreboard objectives add racooniaserver.leave minecraft.custom:minecraft.leave_game
 
+scoreboard objectives add racooniaserver.x_rotation dummy
+scoreboard objectives add racooniaserver.y_rotation dummy
+
 # Setup Settings
 scoreboard objectives add racooniaserver.setting dummy
 execute unless score $weak_creepers racooniaserver.setting matches 1 run scoreboard players set $weak_creepers racooniaserver.setting 0

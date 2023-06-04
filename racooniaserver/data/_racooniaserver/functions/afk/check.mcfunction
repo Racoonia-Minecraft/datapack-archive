@@ -14,6 +14,7 @@ execute if score @s racooniaserver.pig matches 1.. run function _racooniaserver:
 execute if score @s racooniaserver.strider matches 1.. run function _racooniaserver:afk/active
 execute if score @s racooniaserver.jump matches 1.. run function _racooniaserver:afk/active
 execute if score @s racooniaserver.leave matches 1.. run function _racooniaserver:afk/active
-execute if entity @s[tag=racooniaserver.afk] unless entity @s[x_rotation=0, y_rotation=0] run function _racooniaserver:afk/active
+
+execute if entity @s[tag=racooniaserver.afk] run function _racooniaserver:afk/check_rotation
 
 execute if score @s racooniaserver.afkTimer matches 60.. at @s run function _racooniaserver:afk/afk

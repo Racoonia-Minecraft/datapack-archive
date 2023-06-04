@@ -20,6 +20,9 @@ scoreboard players reset * racooniaserver.strider
 scoreboard players reset * racooniaserver.jump
 scoreboard players reset * racooniaserver.leave
 
+scoreboard players reset * racooniaserver.x_rotation
+scoreboard players reset * racooniaserver.y_rotation
+
 # Reset Settings
 scoreboard players reset * racooniaserver.setting
 
