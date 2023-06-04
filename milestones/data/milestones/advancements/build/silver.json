@@ -7,7 +7,7 @@
         "description": "You were built for construction!",
         "frame": "goal",
         "show_toast": true,
-        "announce_to_chat": false,
+        "announce_to_chat": true,
         "hidden": true
     },
     "parent": "milestones:build/bronze",

@@ -7,7 +7,7 @@
         "description": "You're building up to it!",
         "frame": "task",
         "show_toast": true,
-        "announce_to_chat": false,
+        "announce_to_chat": true,
         "hidden": true
     },
     "parent": "milestones:build/teaser",

@@ -7,7 +7,7 @@
         "description": "The cake is a lie",
         "frame": "challenge",
         "show_toast": true,
-        "announce_to_chat": false,
+        "announce_to_chat": true,
         "hidden": true
     },
     "parent": "milestones:eat/silver",
