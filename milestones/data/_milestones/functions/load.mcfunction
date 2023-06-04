@@ -7,8 +7,6 @@ scoreboard objectives add milestones.playtime custom:play_time
 scoreboard objectives add milestones.afkTime dummy
     # Amount of blocks placed
 scoreboard objectives add milestones.blocksPlaced dummy
-    # Items crafted (missing)
-
     # Times died
 scoreboard objectives add milestones.deaths deathCount
     # Amount of food eaten
