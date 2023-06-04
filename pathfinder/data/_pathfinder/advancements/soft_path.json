@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "stepping_on": {
+                        "block": {
+                            "blocks": [
+                                "gravel",
+                                "coarse_dirt",
+                                "podzol",
+                                "cobblestone",
+                                "andesite",
+                                "cobblestone_slab",
+                                "cobblestone_stairs",
+                                "mossy_cobblestone",
+                                "mossy_cobblestone_slab",
+                                "mossy_cobblestone_stairs",
+                                "spruce_slab",
+                                "spruce_stairs",
+                                "grass_block",
+                                "moss_block",
+                                "moss_carpet"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "_pathfinder:soft_path"
+    }
+}

@@ -15,4 +15,4 @@ execute if score @s racooniaserver.strider matches 1.. run function _racooniaser
 execute if score @s racooniaserver.jump matches 1.. run function _racooniaserver:afk/active
 execute if score @s racooniaserver.leave matches 1.. run function _racooniaserver:afk/active
 
-execute if score @s racooniaserver.afkTimer matches 300.. run function _racooniaserver:afk/afk
+execute if score @s racooniaserver.afkTimer matches 60.. run function _racooniaserver:afk/afk
