@@ -1,6 +1,10 @@
 # Scoreboards for milestones functionality
+    # AFL time in seconds
+    scoreboard objectives add milestones.afkTime dummy
     # Play time in ticks
     scoreboard objectives add milestones.playtime custom:play_time
+    # Distance traveled flying with elytra in cm
+    scoreboard objectives add milestones.aviate custom:aviate_one_cm
     # Distance traveled by walking, sprinting, sneaking or jumping in cm
         # Distance traveled by walking in cm
         scoreboard objectives add milestones.walk_only custom:walk_one_cm
@@ -31,8 +35,8 @@
         scoreboard objectives add milestones.mine.obsidian mined:obsidian
 
 # Milestone scoreboards
-    # AFK time is in seconds
-    scoreboard objectives add milestones.afkTime dummy
+    # AFK time is in minutes
+    scoreboard objectives add milestones.afk dummy
     # Amount of blocks placed
     scoreboard objectives add milestones.blocksPlaced dummy
     # Times died
@@ -41,17 +45,17 @@
     scoreboard objectives add milestones.eaten dummy
     # Amount of items enchanted
     scoreboard objectives add milestones.enchanted dummy
-    # Distance traveled by elytra in cm
-    scoreboard objectives add milestones.fly custom:aviate_one_cm
+    # Distance traveled by elytra in blocks
+    scoreboard objectives add milestones.fly dummy
     # Amount of mobs killed
     scoreboard objectives add milestones.kill custom:mob_kills
     # Amount of stone blocks mined
     scoreboard objectives add milestones.mine dummy
-    # Active play time in seconds
+    # Active play time in minutes
     scoreboard objectives add milestones.activeTime dummy
     # Amount of villager trades
     scoreboard objectives add milestones.villagerTrades custom:traded_with_villager
-    # Distance traveled by walking, sprinting or sneaking in cm
+    # Distance traveled by walking, sprinting or sneaking in blocks
     scoreboard objectives add milestones.walk dummy
 
 

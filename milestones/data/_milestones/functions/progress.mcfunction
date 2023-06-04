@@ -82,10 +82,10 @@ execute if score @s milestones.progress < @s milestones.target run tellraw @s ["
 execute if score @s milestones.progress >= @s milestones.target run tellraw @s ["",{"text":"Stone Mined: ","color":"gray"},{"text":"COMPLETE","color":"gold"}]
 
 # Active
-scoreboard players set @s milestones.target 60
-scoreboard players set @s[scores={milestones.activeTime=60..}] milestones.target 120
-scoreboard players set @s[scores={milestones.activeTime=120..}] milestones.target 180
-scoreboard players set @s[scores={milestones.activeTime=180..}] milestones.target 240
+scoreboard players set @s milestones.target 1
+scoreboard players set @s[scores={milestones.activeTime=1..}] milestones.target 2
+scoreboard players set @s[scores={milestones.activeTime=2..}] milestones.target 3
+scoreboard players set @s[scores={milestones.activeTime=3..}] milestones.target 4
 execute store result score @s milestones.progress run scoreboard players get @s milestones.activeTime
 function _milestones:progress_percentage
 execute if score @s milestones.progress < @s milestones.target run tellraw @s ["",{"text":"Active Time: ","color":"gray"},{"score":{"name":"@s","objective":"milestones.progress"},"color":"green"},"/",{"score":{"name":"@s","objective":"milestones.target"},"color":"aqua"}," - ",{"score":{"name":"@s","objective":"milestones.percentage"},"color":"yellow"},{"text":"%","color":"yellow"}]
@@ -102,10 +102,10 @@ execute if score @s milestones.progress < @s milestones.target run tellraw @s ["
 execute if score @s milestones.progress >= @s milestones.target run tellraw @s ["",{"text":"Villager Trades: ","color":"gray"},{"text":"COMPLETE","color":"gold"}]
 
 # Walk
-scoreboard players set @s milestones.target 1000
-scoreboard players set @s[scores={milestones.walk=1000..}] milestones.target 2000
-scoreboard players set @s[scores={milestones.walk=2000..}] milestones.target 3000
-scoreboard players set @s[scores={milestones.walk=3000..}] milestones.target 4000
+scoreboard players set @s milestones.target 10
+scoreboard players set @s[scores={milestones.walk=10..}] milestones.target 20
+scoreboard players set @s[scores={milestones.walk=20..}] milestones.target 30
+scoreboard players set @s[scores={milestones.walk=30..}] milestones.target 40
 execute store result score @s milestones.progress run scoreboard players get @s milestones.walk
 function _milestones:progress_percentage
 execute if score @s milestones.progress < @s milestones.target run tellraw @s ["",{"text":"Walk Distance: ","color":"gray"},{"score":{"name":"@s","objective":"milestones.progress"},"color":"green"},"/",{"score":{"name":"@s","objective":"milestones.target"},"color":"aqua"}," - ",{"score":{"name":"@s","objective":"milestones.percentage"},"color":"yellow"},{"text":"%","color":"yellow"}]

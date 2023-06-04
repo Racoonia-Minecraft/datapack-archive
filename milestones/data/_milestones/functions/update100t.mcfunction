@@ -1,9 +1,10 @@
 # AFK Milestone
 scoreboard players add @a[tag=racooniaserver.afk] milestones.afkTime 5
-advancement grant @a[scores={milestones.afkTime=4..}] until milestones:afk/gold
-advancement grant @a[scores={milestones.afkTime=3..}] until milestones:afk/silver
-advancement grant @a[scores={milestones.afkTime=2..}] until milestones:afk/bronze
-advancement grant @a[scores={milestones.afkTime=1..}] until milestones:afk/teaser
+execute as @a run function _milestones:afk_time
+advancement grant @a[scores={milestones.afk=4..}] until milestones:afk/gold
+advancement grant @a[scores={milestones.afk=3..}] until milestones:afk/silver
+advancement grant @a[scores={milestones.afk=2..}] until milestones:afk/bronze
+advancement grant @a[scores={milestones.afk=1..}] until milestones:afk/teaser
 
 # Build Milestone
 advancement grant @a[scores={milestones.blocksPlaced=4..}] until milestones:build/gold
@@ -32,10 +33,11 @@ advancement grant @a[scores={milestones.enchanted=2..}] until milestones:enchant
 advancement grant @a[scores={milestones.enchanted=1..}] until milestones:enchant/teaser
 
 # Fly Milestone
-advancement grant @a[scores={milestones.fly=4..}] until milestones:fly/gold
-advancement grant @a[scores={milestones.fly=3..}] until milestones:fly/silver
-advancement grant @a[scores={milestones.fly=2..}] until milestones:fly/bronze
-advancement grant @a[scores={milestones.fly=1..}] until milestones:fly/teaser
+execute as @a run function _milestones:fly_distance
+advancement grant @a[scores={milestones.fly=40..}] until milestones:fly/gold
+advancement grant @a[scores={milestones.fly=30..}] until milestones:fly/silver
+advancement grant @a[scores={milestones.fly=20..}] until milestones:fly/bronze
+advancement grant @a[scores={milestones.fly=10..}] until milestones:fly/teaser
 
 # Kill Milestone
 advancement grant @a[scores={milestones.kill=4..}] until milestones:kill/gold
@@ -61,10 +63,10 @@ advancement grant @a[scores={milestones.mine=1..}] until milestones:mine/teaser
 
 # Play Milestone
 execute as @a run function _milestones:active_time
-advancement grant @a[scores={milestones.activeTime=240..}] until milestones:play/gold
-advancement grant @a[scores={milestones.activeTime=180..}] until milestones:play/silver
-advancement grant @a[scores={milestones.activeTime=120..}] until milestones:play/bronze
-advancement grant @a[scores={milestones.activeTime=60..}] until milestones:play/teaser
+advancement grant @a[scores={milestones.activeTime=4..}] until milestones:play/gold
+advancement grant @a[scores={milestones.activeTime=3..}] until milestones:play/silver
+advancement grant @a[scores={milestones.activeTime=2..}] until milestones:play/bronze
+advancement grant @a[scores={milestones.activeTime=1..}] until milestones:play/teaser
 
 # Villager Milestone
 advancement grant @a[scores={milestones.villagerTrades=4..}] until milestones:villager/gold
@@ -75,10 +77,10 @@ advancement grant @a[scores={milestones.villagerTrades=1..}] until milestones:vi
 # Walk Milestone
 scoreboard players set @a milestones.walk 0
 execute as @a run function _milestones:walk_distance
-advancement grant @a[scores={milestones.walk=4000..}] until milestones:walk/gold
-advancement grant @a[scores={milestones.walk=3000..}] until milestones:walk/silver
-advancement grant @a[scores={milestones.walk=2000..}] until milestones:walk/bronze
-advancement grant @a[scores={milestones.walk=1000..}] until milestones:walk/teaser
+advancement grant @a[scores={milestones.walk=40..}] until milestones:walk/gold
+advancement grant @a[scores={milestones.walk=30..}] until milestones:walk/silver
+advancement grant @a[scores={milestones.walk=20..}] until milestones:walk/bronze
+advancement grant @a[scores={milestones.walk=10..}] until milestones:walk/teaser
 
 # Loop
 schedule function _milestones:update100t 100t
