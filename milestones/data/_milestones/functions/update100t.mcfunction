@@ -61,10 +61,10 @@ advancement grant @a[scores={milestones.mine=1..}] until milestones:mine/teaser
 
 # Play Milestone
 execute as @a run function _milestones:active_time
-advancement grant @a[scores={milestones.activeTime=4..}] until milestones:play/gold
-advancement grant @a[scores={milestones.activeTime=3..}] until milestones:play/silver
-advancement grant @a[scores={milestones.activeTime=2..}] until milestones:play/bronze
-advancement grant @a[scores={milestones.activeTime=1..}] until milestones:play/teaser
+advancement grant @a[scores={milestones.activeTime=240..}] until milestones:play/gold
+advancement grant @a[scores={milestones.activeTime=180..}] until milestones:play/silver
+advancement grant @a[scores={milestones.activeTime=120..}] until milestones:play/bronze
+advancement grant @a[scores={milestones.activeTime=60..}] until milestones:play/teaser
 
 # Villager Milestone
 advancement grant @a[scores={milestones.villagerTrades=4..}] until milestones:villager/gold
