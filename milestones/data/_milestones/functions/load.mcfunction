@@ -31,7 +31,5 @@ scoreboard objectives add milestones.activeTime dummy
 scoreboard objectives add milestones.villagerTrdes custom:minecraft.traded_with_villager
     # Distance traveled by walking, sprinting or sneaking in cm
 scoreboard objectives add milestones.walk dummy
-    # XP points gained (missing)
-
 
 function _milestones:update100t
