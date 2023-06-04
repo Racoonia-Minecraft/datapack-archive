@@ -8,7 +8,7 @@ scoreboard players set @s[scores={milestones.afkTime=2..}] milestones.target 3
 scoreboard players set @s[scores={milestones.afkTime=3..}] milestones.target 4
 execute store result score @s milestones.progress run scoreboard players get @s milestones.afkTime
 function _milestones:progress_percentage
-execute if score @s milestones.progress < @s milestones.target run tellraw @s ["",{"text":"AFK Time: ","color":"gray"},{"score":{"name":"@s","objective":"milestones.progress"},"color":"green"},{"text":"m","color":"green"},"/",{"score":{"name":"@s","objective":"milestones.target"},"color":"aqua"},{"text":"m","color":"aqua"}," - ",{"score":{"name":"@s","objective":"milestones.percentage"},"color":"yellow"},{"text":"%","color":"yellow"}]
+execute if score @s milestones.progress < @s milestones.target run tellraw @s ["",{"text":"AFK Time: ","color":"gray"},{"score":{"name":"@s","objective":"milestones.progress"},"color":"green"},{"text":"h","color":"green"},"/",{"score":{"name":"@s","objective":"milestones.target"},"color":"aqua"},{"text":"h","color":"aqua"}," - ",{"score":{"name":"@s","objective":"milestones.percentage"},"color":"yellow"},{"text":"%","color":"yellow"}]
 execute if score @s milestones.progress >= @s milestones.target run tellraw @s ["",{"text":"AFK Time: ","color":"gray"},{"text":"COMPLETE","color":"gold"}]
 
 # Build
@@ -88,7 +88,7 @@ scoreboard players set @s[scores={milestones.activeTime=2..}] milestones.target 
 scoreboard players set @s[scores={milestones.activeTime=3..}] milestones.target 4
 execute store result score @s milestones.progress run scoreboard players get @s milestones.activeTime
 function _milestones:progress_percentage
-execute if score @s milestones.progress < @s milestones.target run tellraw @s ["",{"text":"Active Time: ","color":"gray"},{"score":{"name":"@s","objective":"milestones.progress"},"color":"green"},{"text":"m","color":"green"},"/",{"score":{"name":"@s","objective":"milestones.target"},"color":"aqua"},{"text":"m","color":"aqua"}," - ",{"score":{"name":"@s","objective":"milestones.percentage"},"color":"yellow"},{"text":"%","color":"yellow"}]
+execute if score @s milestones.progress < @s milestones.target run tellraw @s ["",{"text":"Active Time: ","color":"gray"},{"score":{"name":"@s","objective":"milestones.progress"},"color":"green"},{"text":"h","color":"green"},"/",{"score":{"name":"@s","objective":"milestones.target"},"color":"aqua"},{"text":"h","color":"aqua"}," - ",{"score":{"name":"@s","objective":"milestones.percentage"},"color":"yellow"},{"text":"%","color":"yellow"}]
 execute if score @s milestones.progress >= @s milestones.target run tellraw @s ["",{"text":"Active Time: ","color":"gray"},{"text":"COMPLETE","color":"gold"}]
 
 # Villager
