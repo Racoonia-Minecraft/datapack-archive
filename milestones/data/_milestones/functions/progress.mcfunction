@@ -19,8 +19,8 @@ scoreboard players set @s[scores={milestones.blocksPlaced=2..}] milestones.targe
 scoreboard players set @s[scores={milestones.blocksPlaced=3..}] milestones.target 4
 execute store result score @s milestones.progress run scoreboard players get @s milestones.blocksPlaced
 function _milestones:progress_percentage
-execute if score @s milestones.progress < @s milestones.target run tellraw @s ["",{"text":"Blocks Placed:    ","color":"white"},{"score":{"name":"@s","objective":"milestones.progress"},"color":"green"},"/",{"score":{"name":"@s","objective":"milestones.target"},"color":"aqua"}," - ",{"score":{"name":"@s","objective":"milestones.percentage"},"color":"yellow"},{"text":"%","color":"yellow"}]
-execute if score @s milestones.progress >= @s milestones.target run tellraw @s ["",{"text":"Blocks Placed:    ","color":"white"},{"text":"COMPLETE","color":"gold"}]
+execute if score @s milestones.progress < @s milestones.target run tellraw @s ["",{"text":"Blocks Placed:   ","color":"white"},{"text":" ","bold":true},{"score":{"name":"@s","objective":"milestones.progress"},"color":"green"},"/",{"score":{"name":"@s","objective":"milestones.target"},"color":"aqua"}," - ",{"score":{"name":"@s","objective":"milestones.percentage"},"color":"yellow"},{"text":"%","color":"yellow"}]
+execute if score @s milestones.progress >= @s milestones.target run tellraw @s ["",{"text":"Blocks Placed:   ","color":"white"},{"text":" ","bold":true},{"text":"COMPLETE","color":"gold"}]
 
 # Die
 scoreboard players set @s milestones.target 1
@@ -39,8 +39,8 @@ scoreboard players set @s[scores={milestones.eaten=2..}] milestones.target 3
 scoreboard players set @s[scores={milestones.eaten=3..}] milestones.target 4
 execute store result score @s milestones.progress run scoreboard players get @s milestones.eaten
 function _milestones:progress_percentage
-execute if score @s milestones.progress < @s milestones.target run tellraw @s ["",{"text":"Food Eaten:       ","color":"white"},{"score":{"name":"@s","objective":"milestones.progress"},"color":"green"},"/",{"score":{"name":"@s","objective":"milestones.target"},"color":"aqua"}," - ",{"score":{"name":"@s","objective":"milestones.percentage"},"color":"yellow"},{"text":"%","color":"yellow"}]
-execute if score @s milestones.progress >= @s milestones.target run tellraw @s ["",{"text":"Food Eaten:       ","color":"white"},{"text":"COMPLETE","color":"gold"}]
+execute if score @s milestones.progress < @s milestones.target run tellraw @s ["",{"text":"Food Eaten:","color":"white"},{"text":"      ","bold":true},{"score":{"name":"@s","objective":"milestones.progress"},"color":"green"},"/",{"score":{"name":"@s","objective":"milestones.target"},"color":"aqua"}," - ",{"score":{"name":"@s","objective":"milestones.percentage"},"color":"yellow"},{"text":"%","color":"yellow"}]
+execute if score @s milestones.progress >= @s milestones.target run tellraw @s ["",{"text":"Food Eaten:","color":"white"},{"text":"      ","bold":true},{"text":"COMPLETE","color":"gold"}]
 
 # Enchant
 scoreboard players set @s milestones.target 1
@@ -59,8 +59,8 @@ scoreboard players set @s[scores={milestones.fly=20..}] milestones.target 30
 scoreboard players set @s[scores={milestones.fly=30..}] milestones.target 40
 execute store result score @s milestones.progress run scoreboard players get @s milestones.fly
 function _milestones:progress_percentage
-execute if score @s milestones.progress < @s milestones.target run tellraw @s ["",{"text":"Flight Distance:   ","color":"white"},{"score":{"name":"@s","objective":"milestones.progress"},"color":"green"},"/",{"score":{"name":"@s","objective":"milestones.target"},"color":"aqua"}," - ",{"score":{"name":"@s","objective":"milestones.percentage"},"color":"yellow"},{"text":"%","color":"yellow"}]
-execute if score @s milestones.progress >= @s milestones.target run tellraw @s ["",{"text":"Flight Distance:   ","color":"white"},{"text":"COMPLETE","color":"gold"}]
+execute if score @s milestones.progress < @s milestones.target run tellraw @s ["",{"text":"Flight Distance:  ","color":"white"},{"text":" ","bold":true},{"score":{"name":"@s","objective":"milestones.progress"},"color":"green"},"/",{"score":{"name":"@s","objective":"milestones.target"},"color":"aqua"}," - ",{"score":{"name":"@s","objective":"milestones.percentage"},"color":"yellow"},{"text":"%","color":"yellow"}]
+execute if score @s milestones.progress >= @s milestones.target run tellraw @s ["",{"text":"Flight Distance:  ","color":"white"},{"text":" ","bold":true},{"text":"COMPLETE","color":"gold"}]
 
 # Kill
 scoreboard players set @s milestones.target 1
