@@ -1,0 +1,9 @@
+scoreboard players operation @s milestones.mine += @s milestones.mine.stone
+scoreboard players operation @s milestones.mine += @s milestones.mine.granite
+scoreboard players operation @s milestones.mine += @s milestones.mine.diorite
+scoreboard players operation @s milestones.mine += @s milestones.mine.andesite
+scoreboard players operation @s milestones.mine += @s milestones.mine.calcite
+scoreboard players operation @s milestones.mine += @s milestones.mine.tuff
+scoreboard players operation @s milestones.mine += @s milestones.mine.dripstone
+scoreboard players operation @s milestones.mine += @s milestones.mine.deepslate
+scoreboard players operation @s milestones.mine += @s milestones.mine.obsidian
