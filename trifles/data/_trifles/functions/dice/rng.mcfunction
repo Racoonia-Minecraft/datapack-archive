@@ -1,6 +1,7 @@
 # Requires the random datapack by Aeldrion https://github.com/Aeldrion/Minecraft-Random
 
-#declare objective random dummy
+#declare function random:uniform
+#declare objective random
 #declare entity $min
 #declare entity $max
 
