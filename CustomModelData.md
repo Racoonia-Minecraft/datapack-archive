@@ -16,8 +16,13 @@
 - `4000101`: Pocket Cat
 - `4000102`: Mega Stew
 - `4000103`: Dice
+- `4000104`: Empty Cup
+- `4000105`: Coffee
+- `4000106`: Hot Chocolate
+- `4000107`: Tea
 
 ### Simple Milestones
+
 - `4000200`: Trophy
 - `4000201`: Stone Trophy Tier1
 - `4000202`: Stone Trophy Tier2
