@@ -28,6 +28,5 @@
 - `4000207`: Killing Trophy Tier1
 - `4000208`: Killing Trophy Tier2
 - `4000209`: Killing Trophy Tier3
-- `4000210`: Dieing Trophy Tier1
-- `4000211`: Dieing Trophy Tier2
-- `4000212`: Dieing Trophy Tier3
+- `4000211`: Dying Trophy Tier2
+- `4000212`: Dying Trophy Tier3
