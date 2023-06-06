@@ -2,7 +2,6 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT LOGO -->
-<br/>
 <div align="center">
 <!-- <a href="https://github.com/github_username/repo_name">
     <img src="data/images/logo.png" alt="Logo" width="auto" height="80">
@@ -22,20 +21,13 @@
     ·
     <a href="https://github.com/Racoonia-Datapacks/datapacks/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yaml&title=%5BFeature%5D%3A+">Request Feature</a>
 </p>
+    <a href='https://ko-fi.com/O4O028882' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 </div>
+<br/>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-    <summary>Table of Contents</summary>
-    <ol>
-        <li><a href="#about-the-project">About The Project</a></li>
-        <li><a href="#contributing">Contributing</a></li>
-        <li><a href="#contributors">Contributors</a></li>
-        <li><a href="#acknowledgments">Acknowledgments</a></li>
-    </ol>
-</details>
 
-<!-- ABOUT THE PROJECT -->
+
+<!-- ABOUT THE PROJECT-->
 ## About The Project
 
 This repository is a collection of datapacks created for the Racoonia minecraft server. It also holds datapacks that are still in development and not yet used on the server.
