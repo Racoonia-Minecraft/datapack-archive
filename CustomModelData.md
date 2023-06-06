@@ -20,6 +20,7 @@
 - `4000105`: Coffee
 - `4000106`: Hot Chocolate
 - `4000107`: Tea
+- `4000108`: Espresso
 
 ### Simple Milestones
 
