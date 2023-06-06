@@ -3,7 +3,7 @@
 <h3 align="center">Pathfinder</h3>
 
 <p align="center">
-    Detects paths and gives a speed boost when walking on them.
+    Detects paths and gives a speed boost when walking on them. Also turns grass near paths into path blocks if they are walked on often enough.
     <br/>
     <a href="https://github.com/Racoonia-Datapacks/datapacks/wiki/Pathfinder"><strong>Read the Wiki Page »</strong></a>
     <br/>
@@ -20,6 +20,14 @@
 
 <!-- ABOUT THE DATAPACK -->
 ## About The Datapack
+
+Pathfinder is a datapack that tries to detect paths build with dirt paths, grass, cobblestone etc. and gives a speed boost when walking on them.
+
+The datapack also adds trails, which form when walking on grass near paths often enough. These trails turn the grass into path blocks.
+
+Both features can be enabled or disabled using the functions:
+* `pathfinder:speed/enable` and `pathfinder:speed/disable`
+* `pathfinder:trails/enable` and `pathfinder:trails/disable`
 
 For more detailed information about the datapacks, please visit the [Wiki Page](https://github.com/Racoonia-Datapacks/datapacks/wiki/Pathfinder).
 
