@@ -1,3 +1,4 @@
-#declare entity $pathfinder
+#declare entity $speed
+#declare entity $trails
 
-execute unless score $pathfinder pathfinder.disabled matches 1 run effect give @s speed 2 0 true
+execute if score $speed pathfinder.setting matches 1 run effect give @s speed 2 0 true
