@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "poisonous_potato",
+      "nbt": "{CustomModelData:3420001}"
+    },
+    "title": "Couch Potato",
+    "description": {
+      "text": "Sit for over an hour!",
+      "color": "gray"
+    },
+    "frame": "goal",
+    "hidden": true
+  },
+  "parent": "racoonia:chairs/creation",
+  "criteria": {
+    "hour_in_chair": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

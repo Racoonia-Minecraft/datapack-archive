@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:lightning_strike"
+    }
+  },
+  "rewards": {
+    "function": "_racoonia_chairs:lightning/tag"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Racoonia Chairs",
+        "description": "Create chairs by throwing a saddle on a stair block.",
+        "icon": {
+            "item": "minecraft:oak_stairs"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:racoonia",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

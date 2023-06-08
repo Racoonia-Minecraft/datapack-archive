@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "birch_stairs",
+      "nbt": "{CustomModelData:3420001}"
+    },
+    "title": "A Throne, Fit for a King!",
+    "description": {
+      "text": "Throw a saddle on stairs to make a chair",
+      "color": "gray"
+    }
+  },
+  "parent": "racoonia:root",
+  "criteria": {
+    "create chair": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
