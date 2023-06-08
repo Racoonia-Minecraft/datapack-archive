@@ -5,56 +5,14 @@
 #declare entity $out
 
 scoreboard players set $min random 1
-scoreboard players set $max random 54
+scoreboard players set $max random 61
 function random:uniform
 
-execute if score $out random matches 1 run tellraw @s [{"text":"“Ich bin bei euch alle Tage, bis an das Ende der Welt.” "},{"text":"(Matthäus 28:20)", "color": "gray"}]
-execute if score $out random matches 2 run tellraw @s [{"text":"“Diese Männer sind nicht betrunken, wie einige von euch meinen. Es ist ja erst neun Uhr morgens.” "},{"text":"(Apostelgeschichte 2:15)", "color": "gray"}]
-execute if score $out random matches 3 run tellraw @s [{"text":"“Da nun Josua alt war und wohl betagt, sprach der Herr zu ihm: 'Du bist alt geworden und wohl betagt'” "},{"text":"(Josua 13:1)", "color": "gray"}]
-execute if score $out random matches 4 run tellraw @s [{"text":"“Da sprach der Herr zu dem Meerestier, und es spuckte Jona an das trockene Land.” "},{"text":"(Jonah 2:10)", "color": "gray"}]
-execute if score $out random matches 5 run tellraw @s [{"text":"“Von dort aus ging Elisha hinauf nach Bethel. Als er die Straße entlangging, kamen einige Jungen aus der Stadt und verhöhnten ihn. 'Hau ab, Glatzkopf!', sagten sie. 'Hau ab, Glatzkopf!'” "},{"text":"(2 Könige 2:23)", "color": "gray"}]
-execute if score $out random matches 6 run tellraw @s [{"text":"“Eine nörgelnde Ehefrau ist wie Wasser, das an einem Regentag tropft und tropft und tropft. Wer sie kontrollieren kann, kann den Wind kontrollieren. Er kann sogar Olivenöl mit seiner rechten Hand auffangen.” "},{"text":"(Buch der Sprichwörter 27:15-16)", "color": "gray"}]
-execute if score $out random matches 7 run tellraw @s [{"text":"“Aber sie schwiegen, denn unterwegs hatten sie sich darüber gestritten, wer der Größte sei.” "},{"text":"(Markus 9:34)", "color": "gray"}]
-execute if score $out random matches 8 run tellraw @s [{"text":"“Es ist besser, auf einer Dachecke zu leben als ein Haus mit einer nörgelnden Ehefrau zu teilen.” "},{"text":"(Buch der Sprichwörter 21:9)", "color": "gray"}]
-execute if score $out random matches 9 run tellraw @s [{"text":"“Der Wächter meldete wieder: 'Er hat sie erreicht, kehrt aber nicht mehr zurück. Die Art, wie ihr Anführer fährt, ist die Art Jehus, des Enkels Nimschis; denn er fährt wie ein Rasender.'” "},{"text":"(2 Könige 9:20)", "color": "gray"}]
-execute if score $out random matches 10 run tellraw @s [{"text":"“Er sagte zu Jakob: 'Lass mich etwas von dem roten Zeug runterschlucken, ich bin am Verhungern'.” "},{"text":"(Genesis 25:30)", "color": "gray"}]
-execute if score $out random matches 11 run tellraw @s [{"text":"“Ein Fest ist zum Lachen da, Wein macht das Leben fröhlich, und Geld ist die Antwort auf alles.” "},{"text":"(Sirach 10:19)", "color": "gray"}]
-execute if score $out random matches 14 run tellraw @s [{"text":"“Wie ein goldener Ring in der Schnauze eines Schweins, so ist eine schöne Frau, die sich unanständig verhält.” "},{"text":"(Buch der Sprichwörter 11:22)", "color": "gray"}]
-execute if score $out random matches 15 run tellraw @s [{"text":"“Deine Nase ist wie der Turm auf dem Libanon, der nach Damaskus sieht.” "},{"text":"(Hoheslied 7:5)", "color": "gray"}]
-execute if score $out random matches 16 run tellraw @s [{"text":"“Uz, seinen Erstgeborenen und dessen Bruder Bus” "},{"text":"(Genesis 22:21)", "color": "gray"}]
-execute if score $out random matches 17 run tellraw @s [{"text":"“Da packten sie ihn; er aber ließ das Tuch fallen und lief nackt davon.” "},{"text":"(Markus 14:52)", "color": "gray"}]
-execute if score $out random matches 18 run tellraw @s [{"text":"“Dem, der zugrunde geht, gebt Bier, und Wein denen, die verbittert sind.” "},{"text":"(Buch der Sprichwörter 31:6)", "color": "gray"}]
-execute if score $out random matches 20 run tellraw @s [{"text":"“Der Herr ist mein Licht und mein Heil: vor wem sollte ich mich fürchten? Der Herr ist die Kraft meines Lebens: vor wem sollte mir bangen?” "},{"text":"(Psalm 27:1)", "color": "gray"}]
-execute if score $out random matches 21 run tellraw @s [{"text":"“Es gibt keine größere Liebe, als wenn einer sein Leben für seine Freunde hingibt.” "},{"text":"(Johannes 15:13)", "color": "gray"}]
-execute if score $out random matches 22 run tellraw @s [{"text":"“Jesus aber sah sie an und sprach zu ihnen: 'Bei den Menschen ist’s unmöglich; aber bei Gott sind alle Dinge möglich.'” "},{"text":"(Matthäus 19:26)", "color": "gray"}]
-execute if score $out random matches 23 run tellraw @s [{"text":"“Unser Glaube kann Berge versetzen.” "},{"text":"(Matthäus 17:20)", "color": "gray"}]
-execute if score $out random matches 24 run tellraw @s [{"text":"“Ich glaube mein Vater hat meinem Paarungsruf geantwortet” "},{"text":"(simon10247 11:21)", "color": "gray"}]
-execute if score $out random matches 25 run tellraw @s [{"text":"“Hat jemand eine Idee was ich machen kann?” "},{"text":"(maxderprof 00:00)", "color": "gray"}]
-execute if score $out random matches 26 run tellraw @s [{"text":"“Warum sieht Elias so hässlich aus?” "},{"text":"(tsunami2706 11:21)", "color": "gray"}]
-execute if score $out random matches 27 run tellraw @s [{"text":"“Geh mal in das Lager, also den Raum in dem Dinge gelagert werden” "},{"text":"(simon10247 12:21)", "color": "gray"}]
-execute if score $out random matches 28 run tellraw @s [{"text":"“Oh, mein Schwanz schaut raus.” "},{"text":"(simon10247 12:21)", "color": "gray"}]
-execute if score $out random matches 29 run tellraw @s [{"text":"“Wo finde ich diesen 'Any Key'?” "},{"text":"(maxderprof 01:22)", "color": "gray"}]
-execute if score $out random matches 30 run tellraw @s [{"text":"“Hat jemand meine Truppen gesehen?” "},{"text":"(maxderprof 01:22)", "color": "gray"}]
-execute if score $out random matches 31 run tellraw @s [{"text":"“Simon, nimm mal den Dick aus dem Mund!” "},{"text":"(Michael 02:22)", "color": "gray"}]
-execute if score $out random matches 32 run tellraw @s [{"text":"“Der ist aber auch nicht das Grün vom Blatt” "},{"text":"(Racooder 03:22)", "color": "gray"}]
-execute if score $out random matches 33 run tellraw @s [{"text":"“Ich lach immer wie so ein Pedo wenn ich nen Kill mach” "},{"text":"(simon10247 03:22)", "color": "gray"}]
-execute if score $out random matches 34 run tellraw @s [{"text":"“Ich hab mir einen Vorschlag gemacht, den ich sehr gut fand!” "},{"text":"(Racooder 04:22)", "color": "gray"}]
-execute if score $out random matches 35 run tellraw @s [{"text":"“Ewww das erinnert mich an Jonas” "},{"text":"(tsunami2706 -1:22)", "color": "gray"}]
-execute if score $out random matches 36 run tellraw @s [{"text":"“Andesit gehört zu Diorite und Andesite” "},{"text":"(simon10247 081:22)", "color": "gray"}]
-execute if score $out random matches 37 run tellraw @s [{"text":"“Ich hab nur ein Loch gesehen und hab deshalb an dich gedacht” "},{"text":"(simon10247 08:22)", "color": "gray"}]
-execute if score $out random matches 38 run tellraw @s [{"text":"“Ich lösch mal gotura's Gehirn” "},{"text":"(kiwitchu 09:22)", "color": "gray"}]
-execute if score $out random matches 39 run tellraw @s [{"text":"“Ich sehe Milch oh nein es ist eine andere weise Flüssigkeit” "},{"text":"(maxderprof 09:22)", "color": "gray"}]
-execute if score $out random matches 41 run tellraw @s [{"text":"“Schiebe ich mir lieber einen Hamster in den Arsch oder ficke ich lieber die falsche Schwester” "},{"text":"(Michael 10:22)", "color": "gray"}]
-execute if score $out random matches 42 run tellraw @s [{"text":"“Ich nehme die Zähennägel eines 90 jährigen Mannes” "},{"text":"(jonmoja 10:22)", "color": "gray"}]
-execute if score $out random matches 43 run tellraw @s [{"text":"“Das Becken voller pisse ist auch nicht schlecht” "},{"text":"(Michael 10:22)", "color": "gray"}]
-execute if score $out random matches 44 run tellraw @s [{"text":"“Ich finde meine Hose nicht!” "},{"text":"(simon10247 11:22)", "color": "gray"}]
-execute if score $out random matches 45 run tellraw @s [{"text":"“Man weiß ja manchmal ungefär was man denkt!” "},{"text":"(Racooder 01:31)", "color": "gray"}]
-execute if score $out random matches 46 run tellraw @s [{"text":"“Ich kann dir von hier sagen, dass der Anhänger nicht vegan ist!” "},{"text":"(Michael 04:23)", "color": "gray"}]
-execute if score $out random matches 47 run tellraw @s [{"text":"“Das ist weil: Ähhhhhhh! ... Keine Ahnung...” "},{"text":"(Racooder 05:23)", "color": "gray"}]
-execute if score $out random matches 48 run tellraw @s [{"text":"“Einfach sterben!” "},{"text":"(gotura 05:23)", "color": "gray"}]
-execute if score $out random matches 49 run tellraw @s [{"text":"“Wer braucht schon ne Pizza, wenn man eine Kartoffel auf dem Bett hat!” "},{"text":"(simon10247 05:23)", "color": "gray"}]
-execute if score $out random matches 50 run tellraw @s [{"text":"“Dein Vater ist eigentlich ein Mann” "},{"text":"(simon10247 05:23)", "color": "gray"}]
-execute if score $out random matches 51 run tellraw @s [{"text":"“Dein Arsch war in der Schüssel drin, ich hab's gesehen” "},{"text":"(gotura 05:23)", "color": "gray"}]
-execute if score $out random matches 52 run tellraw @s [{"text":"“Lass mal stehen, damit er auch guten Stuhl hat!” "},{"text":"(jonmoja 05:23)", "color": "gray"}]
-execute if score $out random matches 53 run tellraw @s [{"text":"“Ich hatte gerade das Verlangen, meinen Gummistiefel mit Eistee zu füllen” "},{"text":"(simon10247 06:23)", "color": "gray"}]
-execute if score $out random matches 54 run tellraw @s [{"text":"“Du kannst auch einfach 20% besser werden!” "},{"text":"(maxderprof 03:23)", "color": "gray"}]
+execute if score $out random matches 1..10 run function _trifles:bible/1-10
+execute if score $out random matches 11..20 run function _trifles:bible/11-20
+execute if score $out random matches 21..30 run function _trifles:bible/21-30
+execute if score $out random matches 31..40 run function _trifles:bible/31-40
+execute if score $out random matches 41..50 run function _trifles:bible/41-50
+execute if score $out random matches 51..60 run function _trifles:bible/51-60
+execute if score $out random matches 61..70 run function _trifles:bible/61-70
+execute if score $out random matches 71..80 run function _trifles:bible/71-80
