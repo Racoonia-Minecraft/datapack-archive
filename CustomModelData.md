@@ -2,7 +2,7 @@
 
 ## Racooder (400XXXX)
 
-### Phantomwings
+### Phantomwings (4000000-4000099)
 
 - `4000001`: Netherite Elytra
 - `4000002`: Diamond Elytra
@@ -11,7 +11,7 @@
 - `4000005`: Gold Elytra
 - `4000006`: Leather Elytra
 
-### Trifles
+### Trifles (4000100-4000199)
 
 - `4000101`: Pocket Cat
 - `4000102`: Mega Stew
@@ -22,8 +22,9 @@
 - `4000107`: Tea
 - `4000108`: Espresso
 - `4000109`: Bible
+- `4000110`: Cage
 
-### Simple Milestones
+### Simple Milestones (4000200-4000299)
 
 - `4000200`: Trophy
 - `4000201`: Stone Trophy Tier1
