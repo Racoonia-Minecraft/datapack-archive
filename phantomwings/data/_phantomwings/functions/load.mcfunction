@@ -1,1 +1,1 @@
-function _phantomwings:update20t
+function _phantomwings:main

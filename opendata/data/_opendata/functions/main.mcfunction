@@ -3,4 +3,4 @@ execute as @a[scores={customModelData=..-1}] run function _opendata:custom_model
 scoreboard players reset @a[tag=!global.ignore] customModelData
 scoreboard players enable @a[tag=!global.ignore] customModelData
 
-schedule function _opendata:update20t 20t
+schedule function _opendata:main 20t

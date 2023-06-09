@@ -21,4 +21,4 @@ execute as @e[type=minecraft:armor_stand,tag=packages.package_name] if data enti
 scoreboard players add @e[type=minecraft:armor_stand,tag=packages.package_name,tag=!packages.package_renamed] packages.rename_time 1
 execute as @e[type=minecraft:armor_stand,tag=packages.package_name,tag=!packages.package_renamed] if score @s packages.rename_time >= packageLimit packages.rename_time run kill @s[tag=!global.ignore,tag=!global.ignore.kill]
 
-schedule function _packages:update20t 20t
+schedule function _packages:main 20t

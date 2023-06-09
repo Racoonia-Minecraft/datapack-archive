@@ -11,4 +11,4 @@ scoreboard players reset @a[tag=!global.ignore] dynmap
 scoreboard players enable @a[tag=!global.ignore] dynmap
 
 # Schedule
-schedule function _wildpack:update20t 20t
+schedule function _wildpack:main 20t

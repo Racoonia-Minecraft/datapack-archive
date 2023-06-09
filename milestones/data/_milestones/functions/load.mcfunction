@@ -70,5 +70,5 @@
 
 
 # Loops
-function _milestones:update20t
-function _milestones:update100t
+function _milestones:main
+function _milestones:grant_milestones

@@ -10,5 +10,5 @@ scoreboard objectives add trifles.diceAnimation dummy
 scoreboard objectives add trifles.enderEyeHoldClick dummy
 scoreboard objectives add trifles.animationLoop dummy
 
-function _trifles:update20t
-function _trifles:update60t
+function _trifles:main
+function _trifles:pocketcat/check

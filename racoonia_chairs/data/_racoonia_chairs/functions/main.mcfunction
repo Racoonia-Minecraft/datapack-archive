@@ -4,4 +4,4 @@ execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:saddle"}},tag=!racoon
 # kill pig (saddle) if stairs broken
 execute as @e[type=minecraft:pig,tag=racoonia_chairs,tag=!global.ignore,tag=!global.ignore.kill] at @s unless block ~ ~1 ~ #minecraft:stairs positioned ~ ~.5 ~ run function _racoonia_chairs:kill
 
-schedule function _racoonia_chairs:update20t 20t
+schedule function _racoonia_chairs:main 20t

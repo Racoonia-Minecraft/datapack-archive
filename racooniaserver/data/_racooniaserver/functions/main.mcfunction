@@ -4,4 +4,4 @@ scoreboard players add @a racooniaserver.afkTimer 1
 execute as @a run function _racooniaserver:afk/check
 function _racooniaserver:afk/reset
 
-schedule function _racooniaserver:update20t 20t
+schedule function _racooniaserver:main 20t

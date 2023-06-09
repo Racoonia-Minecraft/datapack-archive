@@ -21,4 +21,4 @@ execute as @e[type=minecraft:armor_stand,tag=libament.present_name,tag=!global.i
 scoreboard players add @e[type=minecraft:armor_stand,tag=libament.present_name,tag=!libament.present_renamed,tag=!global.ignore] libament.rename_time 1
 execute as @e[type=minecraft:armor_stand,tag=libament.present_name,tag=!libament.present_renamed,tag=!global.ignore] if score @s libament.rename_time >= presentLimit libament.rename_time run kill @s[tag=!global.ignore,tag=!global.ignore.kill]
 
-schedule function _libament:update10t 10t
+schedule function _libament:main 10t

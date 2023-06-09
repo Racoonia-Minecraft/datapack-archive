@@ -32,4 +32,4 @@ scoreboard objectives add racooniaserver.setting dummy
 execute unless score $weak_creepers racooniaserver.setting matches 1 run scoreboard players set $weak_creepers racooniaserver.setting 0
 execute unless score $block_end racooniaserver.setting matches 1 run scoreboard players set $block_end racooniaserver.setting 0
 
-function _racooniaserver:update20t
+function _racooniaserver:main

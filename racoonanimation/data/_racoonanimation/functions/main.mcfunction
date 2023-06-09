@@ -9,4 +9,4 @@ execute as @e[type=minecraft:marker,tag=racoonanimation.package] at @s run funct
 
 # Animation calls end
 
-schedule function _racoonanimation:update20t 20t
+schedule function _racoonanimation:main 20t

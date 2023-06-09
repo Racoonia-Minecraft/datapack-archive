@@ -13,4 +13,4 @@ execute as @a[scores={trifles.fungusClick=1..}] run function _trifles:click/fung
 scoreboard players reset @a trifles.fungusClick
 scoreboard players reset @a trifles.enderEyeHoldClick
 
-schedule function _trifles:update20t 20t
+schedule function _trifles:main 20t

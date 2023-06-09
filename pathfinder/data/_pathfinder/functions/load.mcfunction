@@ -9,5 +9,5 @@ execute unless score $speed pathfinder.setting matches 0 run scoreboard players 
 execute unless score $trails pathfinder.setting matches 0 run scoreboard players set $trails pathfinder.setting 1
 
 # Loops
-function _pathfinder:update20t
+function _pathfinder:main
 function _pathfinder:trail/loop
