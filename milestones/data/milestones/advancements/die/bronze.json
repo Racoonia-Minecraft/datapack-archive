@@ -4,7 +4,7 @@
             "item": "minecraft:iron_chestplate"
         },
         "title": "Armorer",
-        "description": "Lorem ipsum dolor sit amet",
+        "description": "You have died 10 times... Sorry",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,

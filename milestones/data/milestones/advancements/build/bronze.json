@@ -1,7 +1,8 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:red_bed"
+            "item": "minecraft:warped_fungus_on_a_stick",
+            "nbt": "{CustomModelData:4000234}"
         },
         "title": "Architect",
         "description": "You're building up to it!",

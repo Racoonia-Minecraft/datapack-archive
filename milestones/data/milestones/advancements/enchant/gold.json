@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:enchanting_table"
         },
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet",
+        "title": "Enchanting Tier3",
+        "description": "Your have enchanted 100 items",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

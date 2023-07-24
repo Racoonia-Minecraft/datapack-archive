@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:elytra"
         },
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet",
+        "title": "Flying Tier3",
+        "description": "You have flowen 100.000 blocks",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

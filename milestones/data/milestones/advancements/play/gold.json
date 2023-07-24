@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:yellow_stained_glass"
+            "item": "minecraft:clock"
         },
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet",
+        "title": "Play Time Tier3",
+        "description": "You have played for 525960 minutes",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

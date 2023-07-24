@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:spruce_door"
         },
-        "title": "Lorem ipsum",
+        "title": "Building Teaser",
         "description": "Let yourself in.",
         "frame": "task",
         "show_toast": true,

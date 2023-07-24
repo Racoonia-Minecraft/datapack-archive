@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:leather_boots"
         },
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet",
+        "title": "First Steps",
+        "description": "Every story has a beginning",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,

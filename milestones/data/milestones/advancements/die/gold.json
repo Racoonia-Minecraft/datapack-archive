@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:recovery_compass"
         },
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet",
+        "title": "Dieing Tier3",
+        "description": "You have died 100 times",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

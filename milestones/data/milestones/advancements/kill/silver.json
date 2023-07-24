@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:crossbow"
         },
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet",
+        "title": "Killing Tier2",
+        "description": "You have killed 100 Mobs",
         "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,

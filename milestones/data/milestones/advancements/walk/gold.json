@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:compass"
         },
-        "title": "Lorem Ipsum",
+        "title": "Tour Guide",
         "description": "Knowing your way around",
         "frame": "challenge",
         "show_toast": true,
