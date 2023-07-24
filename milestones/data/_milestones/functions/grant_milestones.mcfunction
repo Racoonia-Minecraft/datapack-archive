@@ -83,4 +83,4 @@ advancement grant @a[scores={milestones.walk=20..}] until milestones:walk/bronze
 advancement grant @a[scores={milestones.walk=10..}] until milestones:walk/teaser
 
 # Loop
-schedule function _milestones:update100t 100t
+schedule function _milestones:grant_milestones 100t
