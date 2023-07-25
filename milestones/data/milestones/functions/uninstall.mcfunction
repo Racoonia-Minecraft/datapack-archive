@@ -1,4 +1,6 @@
+scoreboard objectives remove milestones.afkTime
 scoreboard objectives remove milestones.playtime
+scoreboard objectives remove milestones.aviate
 scoreboard objectives remove milestones.walk_only
 scoreboard objectives remove milestones.sprint
 scoreboard objectives remove milestones.crouch
@@ -12,7 +14,7 @@ scoreboard objectives remove milestones.mine.tuff
 scoreboard objectives remove milestones.mine.dripstone
 scoreboard objectives remove milestones.mine.calcite
 scoreboard objectives remove milestones.mine.obsidian
-scoreboard objectives remove milestones.afkTime
+scoreboard objectives remove milestones.afk
 scoreboard objectives remove milestones.blocksPlaced
 scoreboard objectives remove milestones.deaths
 scoreboard objectives remove milestones.eaten
