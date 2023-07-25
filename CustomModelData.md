@@ -10,6 +10,7 @@
 - `4000004`: Chainmail Elytra
 - `4000005`: Gold Elytra
 - `4000006`: Leather Elytra
+- `4000007`: Ruby Elytra
 
 ### Trifles (4000100-4000199)
 
