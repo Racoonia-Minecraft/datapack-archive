@@ -13,6 +13,7 @@
 #declare entity $pi6
 #declare entity $e6
 #declare entity $phi6
+#declare storage racoonia:datapacks
 
 # Setup scoreboard
 scoreboard objectives add racoonia.math dummy
@@ -34,3 +35,6 @@ scoreboard players set $phi racoonia.math 1618
 scoreboard players set $pi6 racoonia.math 3141593
 scoreboard players set $e6 racoonia.math 2718282
 scoreboard players set $phi6 racoonia.math 1618034
+
+# Registration
+data merge storage racoonia:datapacks {racooniacore:{installed:true,version:"1.1",version_number:2}}

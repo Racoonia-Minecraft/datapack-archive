@@ -68,7 +68,6 @@
     # Shows the progress of the player for each milestone
     scoreboard objectives add milestones_progress trigger
 
-
-# Loops
-function _milestones:main
-function _milestones:grant_milestones
+# Registration
+data merge storage racoonia:datapacks {milestones:{installed:true,version:"1.0",version_number:1}}
+schedule function _milestones:dep_check 1t

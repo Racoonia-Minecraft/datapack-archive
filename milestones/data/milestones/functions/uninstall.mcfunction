@@ -29,3 +29,5 @@ scoreboard objectives remove milestones.progress
 scoreboard objectives remove milestones.target
 scoreboard objectives remove milestones.percentage
 scoreboard objectives remove milestones_progress
+
+data remove storage racoonia:datapacks milestones

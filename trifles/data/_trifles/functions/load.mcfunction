@@ -10,5 +10,6 @@ scoreboard objectives add trifles.diceAnimation dummy
 scoreboard objectives add trifles.enderEyeHoldClick dummy
 scoreboard objectives add trifles.animationLoop dummy
 
-function _trifles:main
-function _trifles:pocketcat/check
+# Registration
+data merge storage racoonia:datapacks {trifles:{installed:true,version:"0.2",version_number:2}}
+schedule function _trifles:dep_check 1t

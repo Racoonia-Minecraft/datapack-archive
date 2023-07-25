@@ -1,3 +1,5 @@
 scoreboard objectives add customModelData trigger
 
-function _opendata:main
+# Registration
+data merge storage racoonia:datapacks {opendata:{installed:true,version:"0.2",version_number:2}}
+schedule function _opendata:dep_check 1t

@@ -32,4 +32,8 @@ scoreboard objectives add racooniaserver.setting dummy
 execute unless score $weak_creepers racooniaserver.setting matches 1 run scoreboard players set $weak_creepers racooniaserver.setting 0
 execute unless score $block_end racooniaserver.setting matches 1 run scoreboard players set $block_end racooniaserver.setting 0
 
-function _racooniaserver:main
+# Registration
+data merge storage racoonia:datapacks {racooniaserver:{installed:true,version:"0.2",version_number:2}}
+
+# Start Loop
+schedule function _racooniaserver:main 1t
