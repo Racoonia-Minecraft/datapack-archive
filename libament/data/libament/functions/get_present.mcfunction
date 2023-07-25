@@ -1,1 +1,1 @@
-give @s[tag=!global.ignore] salmon_spawn_egg{display: {Name: '{"text":"Present","color":"gold","bold":true,"italic":false}', Lore: ['{"text":"You can now gift another"}', '{"text":"player something nice!"}']}, EntityTag: {id: "minecraft:marker", Tags: ["libament.place_present"]}} 1
+give @s[tag=!global.ignore] pig_spawn_egg{display:{Name:'{"text":"Present","color":"gold","bold":true,"italic":false}',Lore:['{"text":"You can now gift another"}','{"text":"player something nice!"}']},CustomModelData:4000110,EntityTag:{id:"minecraft:marker",Tags:["libament.place_present"]}}

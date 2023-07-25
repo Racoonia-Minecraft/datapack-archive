@@ -23,6 +23,9 @@
 - `4000108`: Espresso
 - `4000109`: Bible
 
+- `4000110`: Present
+- `4000111`: Package
+
 ### Simple Milestones (4000200-4000299)
 
 - `4000200`: Trophy
