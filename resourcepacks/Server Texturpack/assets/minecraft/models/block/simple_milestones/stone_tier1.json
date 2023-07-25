@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "block/simple_milestones/stone_tier1"
+    }
+}
