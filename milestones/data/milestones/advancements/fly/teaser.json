@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:feather"
         },
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet",
+        "title": "Flying Teaser",
+        "description": "You have flowen one block",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,

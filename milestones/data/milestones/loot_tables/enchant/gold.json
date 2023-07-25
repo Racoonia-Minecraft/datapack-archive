@@ -5,13 +5,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone"
+          "name": "minecraft:warped_fungus_on_a_stick"
         }
       ],
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{}"
+          "tag": "{display:{Name:'{\"text\":\"Golden Enchanting Trophy\",\"color\":\"#FDF55F\",\"italic\":false}',Lore:['{\"text\":\"A trophy for enchanting 100 times.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Enchanting Tier3:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have enchanted a lot of items\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000227}"
         }
       ]
     }

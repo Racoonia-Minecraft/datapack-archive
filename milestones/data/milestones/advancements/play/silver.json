@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:gray_stained_glass"
+            "item": "minecraft:clock"
         },
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet",
+        "title": "Play Time Tier2",
+        "description": "You have played for some minutes",
         "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,

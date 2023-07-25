@@ -11,7 +11,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{display:{Name:'{\"text\":\"Silver Dying Trophy\",\"color\":\"#D8D8D8\",\"italic\":false}',Lore:['{\"text\":\"A trophy for dying 50 times.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Lorem ipsum:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Lorem ipsum dolor sit amet\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000211}"
+          "tag": "{display:{Name:'{\"text\":\"Silver Dying Trophy\",\"color\":\"#D8D8D8\",\"italic\":false}',Lore:['{\"text\":\"A trophy for dying x times.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Dieing Tier2:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have died some times\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000211}"
         }
       ]
     }

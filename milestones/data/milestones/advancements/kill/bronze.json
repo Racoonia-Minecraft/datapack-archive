@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:iron_axe"
         },
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet",
+        "title": "Killing Tier1",
+        "description": "You have killed a few Mobs",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,

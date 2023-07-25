@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:cooked_beef"
         },
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet",
+        "title": "Eating Tier2",
+        "description": "You have eaten some times",
         "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,

@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:emerald_block"
         },
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet",
+        "title": "Trading Tier3",
+        "description": "You have traded a lot of times",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

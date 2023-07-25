@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:bookshelf"
         },
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet",
+        "title": "Enchanting Tier2",
+        "description": "You have enchanted some items",
         "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,

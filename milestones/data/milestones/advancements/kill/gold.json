@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:trident"
         },
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet",
+        "title": "Killing Tier3",
+        "description": "You have killed a lot of Mobs",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

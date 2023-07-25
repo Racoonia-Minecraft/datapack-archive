@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:orange_stained_glass"
+            "item": "minecraft:clock"
         },
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet",
+        "title": "Afk Time Tier1",
+        "description": "You have been afk for a few minutes",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,

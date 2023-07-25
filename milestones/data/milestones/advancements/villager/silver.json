@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:bell"
         },
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet",
+        "title": "Trading Tier2",
+        "description": "You have traded some times",
         "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,

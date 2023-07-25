@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-<h3 align="center">Racooniacore</h3>
+<h3 align="center">Racoonia Chairs</h3>
 
 <p align="center">
     Create chairs by throwing a saddle on a stair block.

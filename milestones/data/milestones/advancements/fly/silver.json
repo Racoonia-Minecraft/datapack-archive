@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:firework_rocket"
         },
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet",
+        "title": "Flying Tier2",
+        "description": "You have flowen some blocks",
         "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,

@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:bread"
         },
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet",
+        "title": "Eating Teaser",
+        "description": "You have eaten once",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,

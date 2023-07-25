@@ -39,3 +39,27 @@
 - `4000210`: Dying Trophy Tier1
 - `4000211`: Dying Trophy Tier2
 - `4000212`: Dying Trophy Tier3
+- `4000213`: Flying Trophy Tier1
+- `4000214`: Flying Trophy Tier2
+- `4000215`: Flying Trophy Tier3
+- `4000216`: Walking Trophy Tier1
+- `4000217`: Walking Trophy Tier2
+- `4000218`: Walking Trophy Tier3
+- `4000219`: Eating Trophy Tier1
+- `4000220`: Eating Trophy Tier2
+- `4000221`: Eating Trophy Tier3
+- `4000222`: Trading Trophy Tier1
+- `4000223`: Trading Trophy Tier2
+- `4000224`: Trading Trophy Tier3
+- `4000225`: Enchanted Trophy Tier1
+- `4000226`: Enchanted Trophy Tier2
+- `4000227`: Enchanted Trophy Tier3
+- `4000228`: Play Time Trophy Tier1
+- `4000229`: Play Time Trophy Tier2
+- `4000230`: Play Time Trophy Tier3
+- `4000231`: Afk Time Trophy Tier1
+- `4000232`: Afk Time Trophy Tier2
+- `4000233`: Afk Time Trophy Tier3
+- `4000234`: 2D Red Bed
+
+- `40002xx`: x Trophy Tier1
