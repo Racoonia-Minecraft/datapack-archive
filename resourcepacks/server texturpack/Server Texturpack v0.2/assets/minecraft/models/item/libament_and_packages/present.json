@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/libament_and_packages/present"
+    }
+}
