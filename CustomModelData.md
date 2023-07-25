@@ -22,7 +22,6 @@
 - `4000107`: Tea
 - `4000108`: Espresso
 - `4000109`: Bible
-- `4000110`: Cage
 
 ### Simple Milestones (4000200-4000299)
 
