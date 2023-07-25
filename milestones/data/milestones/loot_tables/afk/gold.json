@@ -11,7 +11,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{display:{Name:'{\"text\":\"Gold Afk Time Trophy\",\"color\":\"#FDF55F\",\"italic\":false}',Lore:['{\"text\":\"A trophy for being afk for 60 minutes.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Architect:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have been afk for 60 minutes.\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000233}"
+          "tag": "{display:{Name:'{\"text\":\"Golden Afk Time Trophy\",\"color\":\"#FDF55F\",\"italic\":false}',Lore:['{\"text\":\"A trophy for being afk for 60 minutes.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Afk Time Tier3:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have been afk for a lot of minutes.\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000233}"
         }
       ]
     }

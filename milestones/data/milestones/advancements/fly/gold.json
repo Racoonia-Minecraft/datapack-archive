@@ -4,7 +4,7 @@
             "item": "minecraft:elytra"
         },
         "title": "Flying Tier3",
-        "description": "You have flowen 100.000 blocks",
+        "description": "You have flowen a lot of blocks blocks",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

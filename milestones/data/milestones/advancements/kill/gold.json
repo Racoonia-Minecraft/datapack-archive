@@ -4,7 +4,7 @@
             "item": "minecraft:trident"
         },
         "title": "Killing Tier3",
-        "description": "You have killed 1000 Mobs",
+        "description": "You have killed a lot of Mobs",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

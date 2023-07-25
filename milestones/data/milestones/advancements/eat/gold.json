@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:cake"
         },
-        "title": "A pice of Cake",
+        "title": "A pice of cake",
         "description": "The cake is a lie",
         "frame": "challenge",
         "show_toast": true,

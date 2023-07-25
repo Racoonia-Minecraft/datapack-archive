@@ -5,13 +5,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone"
+          "name": "minecraft:warped_fungus_on_a_stick"
         }
       ],
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{}"
+          "tag": "{display:{Name:'{\"text\":\"Silver Eating Trophy\",\"color\":\"#D8D8D8\",\"italic\":false}',Lore:['{\"text\":\"A trophy for eating 100 items.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Eating Tier2:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have eaten some times.\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000220}"
         }
       ]
     }

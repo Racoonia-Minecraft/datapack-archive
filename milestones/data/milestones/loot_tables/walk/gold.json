@@ -5,13 +5,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone"
+          "name": "minecraft:compass"
         }
       ],
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{}"
+          "tag": "{display:{Name:'{\"text\":\"Golden Walking Trophy\",\"color\":\"#FDF55F\",\"italic\":false}',Lore:['{\"text\":\"A trophy for walking 300 blocks.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Tour Guide:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Knowing your way around\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000218}"
         }
       ]
     }

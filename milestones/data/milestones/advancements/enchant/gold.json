@@ -4,7 +4,7 @@
             "item": "minecraft:enchanting_table"
         },
         "title": "Enchanting Tier3",
-        "description": "Your have enchanted 100 items",
+        "description": "You have enchanted a lot of items",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

@@ -4,7 +4,7 @@
             "item": "minecraft:clock"
         },
         "title": "Afk Time Tier2",
-        "description": "You have been afk for 20 minutes",
+        "description": "You have been afk for some minutes",
         "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,

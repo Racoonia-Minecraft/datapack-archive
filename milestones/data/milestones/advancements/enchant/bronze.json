@@ -4,7 +4,7 @@
             "item": "minecraft:enchanted_book"
         },
         "title": "Enchanting Tier1",
-        "description": "Your have enchanted 10 items",
+        "description": "You have enchanted a few items",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,

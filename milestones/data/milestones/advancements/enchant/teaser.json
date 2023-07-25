@@ -4,7 +4,7 @@
             "item": "minecraft:lapis_lazuli"
         },
         "title": "Enchanting Teaser",
-        "description": "Your have enchanted 1 item",
+        "description": "You have enchanted one item",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,

@@ -4,7 +4,7 @@
             "item": "minecraft:cooked_beef"
         },
         "title": "Eating Tier2",
-        "description": "You have eaten 100 times",
+        "description": "You have eaten some times",
         "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,

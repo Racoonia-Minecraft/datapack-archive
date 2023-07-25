@@ -4,7 +4,7 @@
             "item": "minecraft:phantom_membrane"
         },
         "title": "Flying Tier1",
-        "description": "You have flowen 2000 blocks",
+        "description": "You have flowen a few blocks",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,

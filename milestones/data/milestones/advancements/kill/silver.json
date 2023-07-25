@@ -4,7 +4,7 @@
             "item": "minecraft:crossbow"
         },
         "title": "Killing Tier2",
-        "description": "You have killed 100 Mobs",
+        "description": "You have killed some Mobs",
         "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,

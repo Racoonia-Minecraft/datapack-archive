@@ -4,7 +4,7 @@
             "item": "minecraft:clock"
         },
         "title": "Play Time Tier2",
-        "description": "You have played for 60 minutes",
+        "description": "You have played for some minutes",
         "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,

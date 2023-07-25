@@ -4,7 +4,7 @@
             "item": "minecraft:baked_potato"
         },
         "title": "Eating Tier1",
-        "description": "You have eaten 20 times",
+        "description": "You have eaten a few times",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
