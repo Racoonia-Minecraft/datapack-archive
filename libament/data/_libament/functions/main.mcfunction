@@ -2,7 +2,7 @@
 #declare entity presentLimit
 #declare tag global.ignore
 
-execute at @e[type=item,tag=!global.ignore,nbt={Item: {id: "minecraft:paper", Count: 1b}}] at @e[type=item,nbt={Item: {id: "minecraft:red_dye", Count: 1b}},distance=..0.5,sort=nearest,limit=1] run summon item ~ ~ ~ {PickupDelay: 20, Motion: [0.0d, 0.3d, 0.0d], Tags: ["libament.item_craft"], Item: {id: "minecraft:salmon_spawn_egg", Count: 1b, tag: {display: {Name: '{"text":"Present","color":"gold","bold":true,"italic":false}', Lore: ['{"text":"You can now gift another"}', '{"text":"player something nice!"}']}, EntityTag: {id: "minecraft:marker", Tags: ["libament.place_present"]}}}}
+execute at @e[type=item,tag=!global.ignore,nbt={Item: {id: "minecraft:paper", Count: 1b}}] at @e[type=item,nbt={Item: {id: "minecraft:red_dye", Count: 1b}},distance=..0.5,sort=nearest,limit=1] run summon item ~ ~ ~ {PickupDelay:20,Motion:[0.0,0.3,0.0],Tags:["libament.item_craft"],Item:{id:"minecraft:pig_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Present","color":"gold","bold":true,"italic":false}',Lore:['{"text":"You can now gift another"}','{"text":"player something nice!"}']},CustomModelData:4000110,EntityTag:{id:"minecraft:marker",Tags:["libament.place_present"]}}}}
 execute as @e[type=item,tag=libament.item_craft,tag=!global.ignore] at @s run function _libament:present/craft
 
 execute at @e[type=minecraft:marker,tag=libament.place_present,tag=!global.ignore] run function _libament:present/try_place
