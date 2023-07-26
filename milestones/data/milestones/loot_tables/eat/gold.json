@@ -11,7 +11,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{display:{Name:'{\"text\":\"Golden Eating Trophy\",\"color\":\"#FDF55F\",\"italic\":false}',Lore:['{\"text\":\"A trophy for eating a lot of items.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"A pice of cake:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"The cake is a lie.\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000221}"
+          "tag": "{display:{Name:'{\"text\":\"Golden Eating Trophy\",\"color\":\"#FDF55F\",\"italic\":false}',Lore:['{\"text\":\"A trophy for eating a lot of items.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Pice of cake:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"The cake is a lie.\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000221}"
         }
       ]
     }
