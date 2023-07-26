@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{CustomModelData:4000105}"
+    },
+    "title": "A brewtiful night",
+    "description": "Stay awake!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "trifles:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{trifles:{type:\"coffee\"}}"
+        }
+      }
+    }
+  }
+}
