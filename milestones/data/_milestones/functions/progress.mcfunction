@@ -11,7 +11,7 @@ scoreboard players set @s[scores={milestones.afk=300..}] milestones.target 900
 scoreboard players set @s[scores={milestones.afk=900..}] milestones.target 3000
 execute store result score @s milestones.progress run scoreboard players get @s milestones.afk
 function _milestones:progress_percentage
-execute if score @s milestones.progress < @s milestones.target run tellraw @s ["",{"text":"AFK Time:           ","color":"white"},{"nbt":"progressbar.done","storage":"racoonia:milestones","color":"green"},{"nbt":"progressbar.undone","storage":"milestones","color":"aqua"}," - ",{"score":{"name":"@s","objective":"milestones.percentage"},"color":"yellow"},{"text":"%","color":"yellow"}]
+execute if score @s milestones.progress < @s milestones.target run tellraw @s ["",{"text":"AFK Time:           ","color":"white"},{"nbt":"progressbar.done","storage":"racoonia:milestones","color":"green"},{"nbt":"progressbar.undone","storage":"racoonia:milestones","color":"aqua"}," - ",{"score":{"name":"@s","objective":"milestones.percentage"},"color":"yellow"},{"text":"%","color":"yellow"}]
 execute if score @s milestones.progress >= @s milestones.target run tellraw @s ["",{"text":"AFK Time:           ","color":"white"},{"text":"COMPLETE","color":"gold"}]
 
 # Build
@@ -21,7 +21,7 @@ scoreboard players set @s[scores={milestones.blocksPlaced=200..}] milestones.tar
 scoreboard players set @s[scores={milestones.blocksPlaced=2000..}] milestones.target 20000
 execute store result score @s milestones.progress run scoreboard players get @s milestones.blocksPlaced
 function _milestones:progress_percentage
-execute if score @s milestones.progress < @s milestones.target run tellraw @s ["",{"text":"Blocks Placed:   ","color":"white"},{"text":" ","bold":true},{"nbt":"progressbar.done","storage":"racoonia:milestones","color":"green"},{"nbt":"progressbar.undone","storage":"milestones","color":"aqua"}," - ",{"score":{"name":"@s","objective":"milestones.percentage"},"color":"yellow"},{"text":"%","color":"yellow"}]
+execute if score @s milestones.progress < @s milestones.target run tellraw @s ["",{"text":"Blocks Placed:   ","color":"white"},{"text":" ","bold":true},{"nbt":"progressbar.done","storage":"racoonia:milestones","color":"green"},{"nbt":"progressbar.undone","storage":"racoonia:milestones","color":"aqua"}," - ",{"score":{"name":"@s","objective":"milestones.percentage"},"color":"yellow"},{"text":"%","color":"yellow"}]
 execute if score @s milestones.progress >= @s milestones.target run tellraw @s ["",{"text":"Blocks Placed:   ","color":"white"},{"text":" ","bold":true},{"text":"COMPLETE","color":"gold"}]
 
 # Die
