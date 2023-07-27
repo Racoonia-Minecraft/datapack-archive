@@ -4,7 +4,7 @@
             "item": "minecraft:bread"
         },
         "title": "Eating Teaser",
-        "description": "You have eaten once",
+        "description": "You have eaten",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,

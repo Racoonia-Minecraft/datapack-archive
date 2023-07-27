@@ -4,7 +4,7 @@
             "item": "minecraft:wooden_sword"
         },
         "title": "Killing Teaser",
-        "description": "You have killed one Mob",
+        "description": "You have killed",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,

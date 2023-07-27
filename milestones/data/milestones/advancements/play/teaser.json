@@ -4,7 +4,7 @@
             "item": "minecraft:clock"
         },
         "title": "Play Time Teaser",
-        "description": "You have played for one minute",
+        "description": "You have played",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,

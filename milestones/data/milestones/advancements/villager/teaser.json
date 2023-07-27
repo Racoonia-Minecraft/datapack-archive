@@ -4,7 +4,7 @@
             "item": "minecraft:wheat"
         },
         "title": "Trading Teaser",
-        "description": "You have traded once",
+        "description": "You have traded",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,
