@@ -11,7 +11,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{display:{Name:'{\"text\":\"Bronze Eating Trophy\",\"color\":\"#C15A36\",\"italic\":false}',Lore:['{\"text\":\"A trophy for eating 20 items.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Eating Tier1:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have eaten a few times.\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000219}"
+          "tag": "{display:{Name:'{\"text\":\"Bronze Eating Trophy\",\"color\":\"#C15A36\",\"italic\":false}',Lore:['{\"text\":\"A trophy for eating 100 items.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Eating Tier1:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have eaten a few times.\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000219}"
         }
       ]
     }

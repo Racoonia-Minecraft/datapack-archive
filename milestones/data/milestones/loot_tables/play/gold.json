@@ -11,7 +11,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{display:{Name:'{\"text\":\"Golden Active Time Trophy\",\"color\":\"#FDF55F\",\"italic\":false}',Lore:['{\"text\":\"A trophy for playing 525960 minutes.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Play Time Tier3:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have played for 525960 minutes\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000230}"
+          "tag": "{display:{Name:'{\"text\":\"Golden Active Time Trophy\",\"color\":\"#FDF55F\",\"italic\":false}',Lore:['{\"text\":\"A trophy for playing 96 hours.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Play Time Tier3:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have played for 525960 minutes\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000230}"
         }
       ]
     }

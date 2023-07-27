@@ -11,7 +11,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{display:{Name:'{\"text\":\"Silver Trading Trophy\",\"color\":\"#D8D8D8\",\"italic\":false}',Lore:['{\"text\":\"A trophy for trading 100 times.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Trading Tier2:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have traded some times\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000223}"
+          "tag": "{display:{Name:'{\"text\":\"Silver Trading Trophy\",\"color\":\"#D8D8D8\",\"italic\":false}',Lore:['{\"text\":\"A trophy for trading 300 times.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Trading Tier2:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have traded some times\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000223}"
         }
       ]
     }

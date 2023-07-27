@@ -11,7 +11,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{display:{Name:'{\"text\":\"Silver Flying Trophy\",\"color\":\"#D8D8D8\",\"italic\":false}',Lore:['{\"text\":\"A trophy for flying x blocks.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Flying Tier2:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have flowen some blocks\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000214}"
+          "tag": "{display:{Name:'{\"text\":\"Silver Flying Trophy\",\"color\":\"#D8D8D8\",\"italic\":false}',Lore:['{\"text\":\"A trophy for flying 250,000 blocks.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Flying Tier2:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have flowen some blocks\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000214}"
         }
       ]
     }

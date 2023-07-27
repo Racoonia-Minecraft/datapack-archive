@@ -11,7 +11,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{display:{Name:'{\"text\":\"Silver Killing Trophy\",\"color\":\"#D8D8D8\",\"italic\":false}',Lore:['{\"text\":\"A trophy for killing 30,000 mobs.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Killing Tier2:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have killed some Mobs\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000208}"
+          "tag": "{display:{Name:'{\"text\":\"Silver Killing Trophy\",\"color\":\"#D8D8D8\",\"italic\":false}',Lore:['{\"text\":\"A trophy for killing 500 mobs.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Killing Tier2:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have killed some Mobs\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000208}"
         }
       ]
     }

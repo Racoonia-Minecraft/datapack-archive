@@ -11,7 +11,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{display:{Name:'{\"text\":\"Bronze Enchanting Trophy\",\"color\":\"#C15A36\",\"italic\":false}',Lore:['{\"text\":\"A trophy for enchanting 10 times.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Enchanting Tier1:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have enchanted a few items\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000225}"
+          "tag": "{display:{Name:'{\"text\":\"Bronze Enchanting Trophy\",\"color\":\"#C15A36\",\"italic\":false}',Lore:['{\"text\":\"A trophy for enchanting 20 times.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Enchanting Tier1:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have enchanted a few items\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000225}"
         }
       ]
     }

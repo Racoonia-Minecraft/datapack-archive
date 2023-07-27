@@ -11,7 +11,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{display:{Name:'{\"text\":\"Golden Flying Trophy\",\"color\":\"#FDF55F\",\"italic\":false}',Lore:['{\"text\":\"A trophy for flying x blocks.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Flying Tier3:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have flowen a lot of blocks\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000215}"
+          "tag": "{display:{Name:'{\"text\":\"Golden Flying Trophy\",\"color\":\"#FDF55F\",\"italic\":false}',Lore:['{\"text\":\"A trophy for flying 750,000 blocks.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Flying Tier3:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have flowen a lot of blocks\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000215}"
         }
       ]
     }

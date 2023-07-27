@@ -11,7 +11,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{display:{Name:'{\"text\":\"Silver Mining Trophy\",\"color\":\"#D8D8D8\",\"italic\":false}',Lore:['{\"text\":\"A trophy for mining 80,000 stone blocks.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Dwarf:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Diggy Diggy Hole!!!\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000202}"
+          "tag": "{display:{Name:'{\"text\":\"Silver Mining Trophy\",\"color\":\"#D8D8D8\",\"italic\":false}',Lore:['{\"text\":\"A trophy for mining 20,000 stone blocks.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Dwarf:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Diggy Diggy Hole!!!\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000202}"
         }
       ]
     }

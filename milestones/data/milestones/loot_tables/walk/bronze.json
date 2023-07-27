@@ -11,7 +11,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{display:{Name:'{\"text\":\"Bronze Walking Trophy\",\"color\":\"#C15A36\",\"italic\":false}',Lore:['{\"text\":\"A trophy for walking 100 blocks.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Cartographer:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Look at the places you\\'ve been!\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000216}"
+          "tag": "{display:{Name:'{\"text\":\"Bronze Walking Trophy\",\"color\":\"#C15A36\",\"italic\":false}',Lore:['{\"text\":\"A trophy for walking 30,000 blocks.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Cartographer:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Look at the places you\\'ve been!\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000216}"
         }
       ]
     }

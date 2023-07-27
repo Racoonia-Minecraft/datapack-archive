@@ -11,7 +11,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{display:{Name:'{\"text\":\"Bronze Active Time Trophy\",\"color\":\"#C15A36\",\"italic\":false}',Lore:['{\"text\":\"A trophy for playing 10 minutes.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Play Time Tier1:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have played for a few minutes\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000228}"
+          "tag": "{display:{Name:'{\"text\":\"Bronze Active Time Trophy\",\"color\":\"#C15A36\",\"italic\":false}',Lore:['{\"text\":\"A trophy for playing 8 hours.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Play Time Tier1:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have played for a few minutes\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000228}"
         }
       ]
     }
