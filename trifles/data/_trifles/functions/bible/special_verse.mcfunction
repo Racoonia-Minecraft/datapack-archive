@@ -5,7 +5,7 @@
 #declare entity $out
 
 scoreboard players set $min random 1
-scoreboard players set $max random 50
+scoreboard players set $max random 61
 function random:uniform
 
 execute if score $out random matches 1..10 run function _trifles:bible/special/1-10
@@ -13,3 +13,5 @@ execute if score $out random matches 11..20 run function _trifles:bible/special/
 execute if score $out random matches 21..30 run function _trifles:bible/special/21-30
 execute if score $out random matches 31..40 run function _trifles:bible/special/31-40
 execute if score $out random matches 41..50 run function _trifles:bible/special/41-50
+execute if score $out random matches 51..60 run function _trifles:bible/special/51-60
+execute if score $out random matches 61..70 run function _trifles:bible/special/61-70
