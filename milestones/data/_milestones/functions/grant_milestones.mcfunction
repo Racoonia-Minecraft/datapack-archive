@@ -1,10 +1,10 @@
 # AFK Milestone
 scoreboard players add @a[tag=racooniaserver.afk] milestones.afkTime 5
 execute as @a run function _milestones:afk_time
-advancement grant @a[scores={milestones.afk=50..}] until milestones:afk/gold
-advancement grant @a[scores={milestones.afk=15..}] until milestones:afk/silver
-advancement grant @a[scores={milestones.afk=5..}] until milestones:afk/bronze
-advancement grant @a[scores={milestones.afk=1..}] until milestones:afk/teaser
+advancement grant @a[scores={milestones.afk=3000..}] until milestones:afk/gold
+advancement grant @a[scores={milestones.afk=900..}] until milestones:afk/silver
+advancement grant @a[scores={milestones.afk=300..}] until milestones:afk/bronze
+advancement grant @a[scores={milestones.afk=60..}] until milestones:afk/teaser
 
 # Build Milestone
 advancement grant @a[scores={milestones.blocksPlaced=20000..}] until milestones:build/gold
@@ -63,10 +63,10 @@ advancement grant @a[scores={milestones.mine=1000..}] until milestones:mine/teas
 
 # Play Milestone
 execute as @a run function _milestones:active_time
-advancement grant @a[scores={milestones.activeTime=96..}] until milestones:play/gold
-advancement grant @a[scores={milestones.activeTime=32..}] until milestones:play/silver
-advancement grant @a[scores={milestones.activeTime=8..}] until milestones:play/bronze
-advancement grant @a[scores={milestones.activeTime=1..}] until milestones:play/teaser
+advancement grant @a[scores={milestones.activeTime=7680..}] until milestones:play/gold
+advancement grant @a[scores={milestones.activeTime=1920..}] until milestones:play/silver
+advancement grant @a[scores={milestones.activeTime=480..}] until milestones:play/bronze
+advancement grant @a[scores={milestones.activeTime=30..}] until milestones:play/teaser
 
 # Villager Milestone
 advancement grant @a[scores={milestones.villagerTrades=3000..}] until milestones:villager/gold
