@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "minecraft:potion",
-      "nbt": "{CustomModelData:4000106}"
+      "nbt": "{CustomModelData:4000106,CustomPotionColor:16777215}"
     },
     "title": "Warm your insides",
     "description": "So warm and tasty!",

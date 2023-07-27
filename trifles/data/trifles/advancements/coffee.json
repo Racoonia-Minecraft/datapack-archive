@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "minecraft:potion",
-      "nbt": "{CustomModelData:4000105}"
+      "nbt": "{CustomModelData:4000105,CustomPotionColor:16777215}"
     },
     "title": "A brewtiful night",
     "description": "Stay awake!",

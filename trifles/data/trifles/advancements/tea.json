@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "minecraft:potion",
-      "nbt": "{CustomModelData:4000105}"
+      "nbt": "{CustomModelData:4000107,CustomPotionColor:16777215}"
     },
     "title": "Quali-tea",
     "description": "Sipping tea",
