@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:recovery_compass"
         },
-        "title": "Dieing Tier3",
+        "title": "Dying Tier3",
         "description": "You have died a lot of times",
         "frame": "challenge",
         "show_toast": true,
