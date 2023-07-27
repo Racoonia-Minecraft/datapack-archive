@@ -1,3 +1,4 @@
+#declare storage racoonia:datapacks
 #declare function racondom:geometric
 #declare entity $racooniacore
 #declare entity $random

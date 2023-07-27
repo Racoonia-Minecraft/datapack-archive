@@ -1,3 +1,5 @@
+#declare storage racoonia:datapacks
+
 # Registration
 data merge storage racoonia:datapacks {phantomwings:{installed:true,version:"1.1",version_number:2}}
 

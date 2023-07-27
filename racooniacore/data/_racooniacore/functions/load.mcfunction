@@ -1,3 +1,4 @@
+#declare storage racoonia:datapacks
 #declare entity $2
 #declare entity $10
 #declare entity $20
@@ -13,7 +14,6 @@
 #declare entity $pi6
 #declare entity $e6
 #declare entity $phi6
-#declare storage racoonia:datapacks
 
 # Setup scoreboard
 scoreboard objectives add racoonia.math dummy

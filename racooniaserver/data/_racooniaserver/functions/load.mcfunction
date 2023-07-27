@@ -1,3 +1,4 @@
+#declare storage racoonia:datapacks
 #declare entity $weak_creepers
 #declare entity $block_end
 

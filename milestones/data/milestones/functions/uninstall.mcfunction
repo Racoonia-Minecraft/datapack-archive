@@ -1,3 +1,5 @@
+#declare storage racoonia:datapacks
+
 scoreboard objectives remove milestones.afkTime
 scoreboard objectives remove milestones.playtime
 scoreboard objectives remove milestones.aviate

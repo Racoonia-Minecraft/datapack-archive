@@ -1,3 +1,5 @@
+#declare storage racoonia:datapacks
+
 # Scoreboards for milestones functionality
     # AFL time in seconds
     scoreboard objectives add milestones.afkTime dummy

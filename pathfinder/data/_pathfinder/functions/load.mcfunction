@@ -1,3 +1,4 @@
+#declare storage racoonia:datapacks
 #declare entity $speed
 #declare entity $trails
 

@@ -1,3 +1,5 @@
+#declare storage racoonia:datapacks
+
 function _libament:remove_presents
 
 scoreboard objectives add libament.talked_villager minecraft.custom:minecraft.talked_to_villager

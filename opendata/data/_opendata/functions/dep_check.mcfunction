@@ -1,3 +1,5 @@
+#declare storage racoonia:datapacks
+
 #declare entity $racooniacore
 
 scoreboard objectives add racoonia.depCheck dummy

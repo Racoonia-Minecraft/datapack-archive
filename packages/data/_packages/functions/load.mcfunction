@@ -1,3 +1,4 @@
+#declare storage racoonia:datapacks
 #declare entity $packageLimit
 
 scoreboard objectives add packages.talked_villager minecraft.custom:minecraft.talked_to_villager

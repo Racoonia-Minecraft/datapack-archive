@@ -1,3 +1,5 @@
+#declare storage racoonia:datapacks
+
 scoreboard objectives remove trifles.fungusClick
 scoreboard objectives remove trifles.hasPocketcat
 scoreboard objectives remove trifles.megastewCooldown

@@ -1,3 +1,5 @@
+#declare storage racoonia:datapacks
+
 scoreboard objectives add racoonanimation.frame dummy
 
 # Registration

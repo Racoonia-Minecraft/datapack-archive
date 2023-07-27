@@ -1,3 +1,5 @@
+#declare storage racoonia:datapacks
+
 function _packages:remove_packages
 
 scoreboard objectives remove packages.talked_villager

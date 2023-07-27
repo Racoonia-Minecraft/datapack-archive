@@ -1,3 +1,5 @@
+#declare storage racoonia:datapacks
+
 scoreboard objectives remove pathfinder.timer
 scoreboard objectives remove pathfinder.setting
 scoreboard objectives remove pathfinder.traffic

@@ -1,3 +1,5 @@
+#declare storage racoonia:datapacks
+
 team add racoonia_chairs
 team modify racoonia_chairs collisionRule never
 scoreboard objectives add racoonia_chairs_sit dummy

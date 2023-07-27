@@ -1,3 +1,5 @@
+#declare storage racoonia:datapacks
+
 scoreboard objectives remove racooniaserver.deathCount
 scoreboard objectives remove racooniaserver.setting
 

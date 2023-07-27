@@ -1,3 +1,4 @@
+#declare storage racoonia:datapacks
 #declare entity $presentLimit
 
 scoreboard objectives add libament.talked_villager minecraft.custom:minecraft.talked_to_villager

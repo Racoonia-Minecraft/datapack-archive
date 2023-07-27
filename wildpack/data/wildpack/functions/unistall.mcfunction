@@ -1,3 +1,5 @@
+#declare storage racoonia:datapacks
+
 scoreboard objectives remove command_room
 scoreboard objectives remove spawn_coords
 scoreboard objectives remove dynmap
