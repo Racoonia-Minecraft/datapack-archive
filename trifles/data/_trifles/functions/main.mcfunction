@@ -11,7 +11,6 @@ execute as @e[tag=trifles.dice_spawn] at @s run function _trifles:dice/spawn
 # Right click detection
 execute as @a[scores={trifles.fungusClick=1..}] run function _trifles:click/fungus
 scoreboard players reset @a trifles.fungusClick
-scoreboard players reset @a trifles.enderEyeHoldClick
 
 # Craft
 # - Pocket Cat
