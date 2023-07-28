@@ -10,5 +10,5 @@ execute unless score $speed pathfinder.setting matches 0 run scoreboard players 
 execute unless score $trails pathfinder.setting matches 0 run scoreboard players set $trails pathfinder.setting 1
 
 # Registration
-data merge storage racoonia:datapacks {pathfinder:{installed:true,version:"0.2",version_number:2}}
+data merge storage racoonia:datapacks {pathfinder:{installed:true,version:"1.0",version_number:2}}
 schedule function _pathfinder:dep_check 1t

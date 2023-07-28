@@ -11,5 +11,5 @@ scoreboard objectives add trifles.diceAnimation dummy
 scoreboard objectives add trifles.animationLoop dummy
 
 # Registration
-data merge storage racoonia:datapacks {trifles:{installed:true,version:"0.2",version_number:2}}
+data merge storage racoonia:datapacks {trifles:{installed:true,version:"1.0",version_number:2}}
 schedule function _trifles:dep_check 1t

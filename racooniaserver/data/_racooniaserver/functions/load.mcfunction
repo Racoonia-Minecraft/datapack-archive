@@ -34,7 +34,7 @@ execute unless score $weak_creepers racooniaserver.setting matches 1 run scorebo
 execute unless score $block_end racooniaserver.setting matches 1 run scoreboard players set $block_end racooniaserver.setting 0
 
 # Registration
-data merge storage racoonia:datapacks {racooniaserver:{installed:true,version:"0.2",version_number:2}}
+data merge storage racoonia:datapacks {racooniaserver:{installed:true,version:"1.0",version_number:2}}
 
 # Start Loop
 schedule function _racooniaserver:main 1t
