@@ -8,7 +8,7 @@
     <a href="https://github.com/Racoonia-Datapacks/datapacks/wiki/Racoonia%sChairs"><strong>Read the Wiki Page »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/Racoonia-Datapacks/datapacks/releases/tag/racooniachairs">Releases</a>
+    <a href="https://github.com/Racoonia-Datapacks/datapacks/releases/tag/racooniachairs-v1.0">Latest Release</a>
     ·
     <a href="https://github.com/Racoonia-Datapacks/datapacks/issues/new?assignees=&labels=bug,racooniachairs&projects=&template=bug_report.yaml&title=%5BBug%5D%3A+">Report Bug</a>
     ·

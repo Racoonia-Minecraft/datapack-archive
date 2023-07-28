@@ -8,7 +8,7 @@
     <a href="https://github.com/Racoonia-Datapacks/datapacks/wiki/Packages"><strong>Read the Wiki Page »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/Racoonia-Datapacks/datapacks/releases/tag/packages">Releases</a>
+    <a href="https://github.com/Racoonia-Datapacks/datapacks/releases/tag/packages-v1.0">Latest Release</a>
     ·
     <a href="https://github.com/Racoonia-Datapacks/datapacks/issues/new?assignees=&labels=bug,packages&projects=&template=bug_report.yaml&title=%5BBug%5D%3A+">Report Bug</a>
     ·

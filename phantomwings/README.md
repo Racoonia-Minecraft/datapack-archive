@@ -8,7 +8,7 @@
     <a href="https://github.com/Racoonia-Datapacks/datapacks/wiki/Phantomwings"><strong>Read the Wiki Page »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/Racoonia-Datapacks/datapacks/releases/tag/phantomwings">Releases</a>
+    <a href="https://github.com/Racoonia-Datapacks/datapacks/releases/tag/phantomwings">Latest Release</a>
     ·
     <a href="https://github.com/Racoonia-Datapacks/datapacks/issues/new?assignees=&labels=bug,phantomwings&projects=&template=bug_report.yaml&title=%5BBug%5D%3A+">Report Bug</a>
     ·
