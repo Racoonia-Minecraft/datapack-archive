@@ -1,0 +1,16 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/elytra"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":4000001}, "model": "item/phantom_wings/netherite_elytra"},
+		{"predicate": {"custom_model_data":4000002}, "model": "item/phantom_wings/diamond_elytra"},
+		{"predicate": {"custom_model_data":4000003}, "model": "item/phantom_wings/iron_elytra"},
+		{"predicate": {"custom_model_data":4000004}, "model": "item/phantom_wings/chainmail_elytra"},
+		{"predicate": {"custom_model_data":4000005}, "model": "item/phantom_wings/gold_elytra"},
+		{"predicate": {"custom_model_data":4000006}, "model": "item/phantom_wings/leather_elytra"},
+		{"predicate": {"custom_model_data":4000007}, "model": "item/phantom_wings/ruby_elytra"}
+	]
+}
