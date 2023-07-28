@@ -1,0 +1,50 @@
+{
+	"parent": "item/handheld_rod",
+	"textures": {
+		"layer0": "item/warped_fungus_on_a_stick"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":4000101}, "model": "item/trifles/cat_bundel"},
+		{"predicate": {"custom_model_data":4000102}, "model": "item/trifles/mega_stew"},
+		{"predicate": {"custom_model_data":4000109}, "model": "item/trifles/bibel"},
+
+
+		
+		{"predicate": {"custom_model_data":4000200}, "model": "item/simple_milestones/trophy"},
+		{"predicate": {"custom_model_data":4000201}, "model": "block/simple_milestones/stone_tier1"},
+		{"predicate": {"custom_model_data":4000202}, "model": "block/simple_milestones/stone_tier2"},
+		{"predicate": {"custom_model_data":4000203}, "model": "block/simple_milestones/stone_tier3"},
+		{"predicate": {"custom_model_data":4000204}, "model": "item/simple_milestones/placed_tier1"},
+		{"predicate": {"custom_model_data":4000205}, "model": "item/simple_milestones/placed_tier2"},
+		{"predicate": {"custom_model_data":4000206}, "model": "item/simple_milestones/placed_tier3"},
+
+
+		{"predicate": {"custom_model_data":4000209}, "model": "item/simple_milestones/killed_tier3"},
+		{"predicate": {"custom_model_data":4000210}, "model": "item/simple_milestones/died_tier1"},
+		{"predicate": {"custom_model_data":4000211}, "model": "item/simple_milestones/died_tier2"},
+
+		{"predicate": {"custom_model_data":4000213}, "model": "item/simple_milestones/flown_tier1"},
+		{"predicate": {"custom_model_data":4000214}, "model": "item/simple_milestones/flown_tier2"},
+		{"predicate": {"custom_model_data":4000215}, "model": "item/simple_milestones/flown_tier3"},
+		{"predicate": {"custom_model_data":4000216}, "model": "item/simple_milestones/walked_tier1"},
+		{"predicate": {"custom_model_data":4000217}, "model": "item/simple_milestones/walked_tier2"},
+		
+		{"predicate": {"custom_model_data":4000219}, "model": "item/simple_milestones/eaten_tier1"},
+		{"predicate": {"custom_model_data":4000220}, "model": "item/simple_milestones/eaten_tier2"},
+		{"predicate": {"custom_model_data":4000221}, "model": "item/simple_milestones/eaten_tier3"},
+		{"predicate": {"custom_model_data":4000222}, "model": "item/simple_milestones/traded_tier1"},
+		{"predicate": {"custom_model_data":4000223}, "model": "item/simple_milestones/traded_tier2"},
+		{"predicate": {"custom_model_data":4000224}, "model": "block/simple_milestones/traded_tier3"},
+		{"predicate": {"custom_model_data":4000225}, "model": "item/simple_milestones/enchanted_tier1"},
+		{"predicate": {"custom_model_data":4000226}, "model": "block/simple_milestones/enchanted_tier2"},
+		{"predicate": {"custom_model_data":4000227}, "model": "block/simple_milestones/enchanted_tier3"},
+		{"predicate": {"custom_model_data":4000228}, "model": "item/simple_milestones/active_time_tier1"},
+		{"predicate": {"custom_model_data":4000229}, "model": "item/simple_milestones/active_time_tier2"},
+		{"predicate": {"custom_model_data":4000230}, "model": "item/simple_milestones/active_time_tier3"},
+		{"predicate": {"custom_model_data":4000231}, "model": "item/simple_milestones/afk_time_tier1"},
+		{"predicate": {"custom_model_data":4000232}, "model": "item/simple_milestones/afk_time_tier2"},
+		{"predicate": {"custom_model_data":4000233}, "model": "item/simple_milestones/afk_time_tier3"},
+		{"predicate": {"custom_model_data":4000234}, "model": "item/simple_milestones/2D_red_bed"}
+	]
+}

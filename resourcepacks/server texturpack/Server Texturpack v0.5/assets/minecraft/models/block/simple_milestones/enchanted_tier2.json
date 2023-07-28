@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "minecraft:block/simple_milestones/enchanted_tier2_bottom",
+    "side": "minecraft:block/simple_milestones/enchanted_tier2"
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "block/simple_milestones/stone_tier2_top",
+        "side": "block/simple_milestones/stone_tier2"
+    }
+}
