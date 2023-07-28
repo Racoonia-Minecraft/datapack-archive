@@ -1,3 +1,9 @@
+#declare entity $pocketcat
+#declare entity $megastew
+#declare entity $dice
+#declare entity $hot_beverages
+#declare entity $bible
+
 # Handle
     # Mega Stew
     scoreboard players remove @a[scores={trifles.megastewCooldown=1..}] trifles.megastewCooldown 1
