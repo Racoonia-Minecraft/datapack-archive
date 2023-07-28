@@ -5,6 +5,6 @@
     }
   },
   "rewards": {
-    "function": "_racoonia_chairs:lightning/tag"
+    "function": "_racooniachairs:lightning/tag"
   }
 }

@@ -34,7 +34,7 @@
 1. `1.0`
 2. `1.1`
 
-## Racoonia Chairs
+## Racooniachairs
 
 1. `1.0`
 
