@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Roadmap",
+        "description": "A Roadmap to show all futur Updates",
+        "icon": {
+            "item": "minecraft:filled_map"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:racoonia",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
