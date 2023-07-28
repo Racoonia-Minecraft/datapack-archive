@@ -10,6 +10,9 @@ execute unless score trifles trifles.megastewCooldown matches 1.. run scoreboard
 scoreboard objectives add trifles.diceAnimation dummy
 scoreboard objectives add trifles.animationLoop dummy
 
+# scoreboard for enabeling trifles crafting
+scoreboard objectives add trifles.enabled dummy
+
 # Registration
 data merge storage racoonia:datapacks {trifles:{installed:true,version:"1.0",version_number:2}}
 schedule function _trifles:dep_check 1t

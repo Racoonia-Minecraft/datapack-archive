@@ -7,5 +7,7 @@ scoreboard players reset @a trifles.pocketcatCooldown
 scoreboard players reset @a trifles.pocketcatDisabled
 scoreboard players reset @e trifles.diceAnimation
 
+scoreboard players reset * trifles.enabled
+
 scoreboard players set trifles trifles.megastewCooldown 60
 scoreboard players set trifles trifles.diceAnimation 7
