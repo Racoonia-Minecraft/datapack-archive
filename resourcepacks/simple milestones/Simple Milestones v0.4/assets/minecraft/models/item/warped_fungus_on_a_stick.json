@@ -1,0 +1,46 @@
+{
+	"parent": "item/handheld_rod",
+	"textures": {
+		"layer0": "item/warped_fungus_on_a_stick"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":4000200}, "model": "item/trophy"},
+		{"predicate": {"custom_model_data":4000201}, "model": "block/stone_tier1"},
+		{"predicate": {"custom_model_data":4000202}, "model": "block/stone_tier2"},
+		{"predicate": {"custom_model_data":4000203}, "model": "block/stone_tier3"},
+		{"predicate": {"custom_model_data":4000204}, "model": "item/placed_tier1"},
+		{"predicate": {"custom_model_data":4000205}, "model": "item/placed_tier2"},
+		{"predicate": {"custom_model_data":4000206}, "model": "item/placed_tier3"},
+
+
+		{"predicate": {"custom_model_data":4000209}, "model": "item/killed_tier3"},
+		{"predicate": {"custom_model_data":4000210}, "model": "item/died_tier1"},
+		{"predicate": {"custom_model_data":4000211}, "model": "item/died_tier2"},
+
+		{"predicate": {"custom_model_data":4000213}, "model": "item/flown_tier1"},
+		{"predicate": {"custom_model_data":4000214}, "model": "item/flown_tier2"},
+		{"predicate": {"custom_model_data":4000215}, "model": "item/flown_tier3"},
+		{"predicate": {"custom_model_data":4000216}, "model": "item/walked_tier1"},
+		{"predicate": {"custom_model_data":4000217}, "model": "item/walked_tier2"},
+		
+		{"predicate": {"custom_model_data":4000219}, "model": "item/eaten_tier1"},
+		{"predicate": {"custom_model_data":4000220}, "model": "item/eaten_tier2"},
+		{"predicate": {"custom_model_data":4000221}, "model": "item/eaten_tier3"},
+		{"predicate": {"custom_model_data":4000222}, "model": "item/traded_tier1"},
+		{"predicate": {"custom_model_data":4000223}, "model": "item/traded_tier2"},
+		{"predicate": {"custom_model_data":4000224}, "model": "block/traded_tier3"},
+		{"predicate": {"custom_model_data":4000225}, "model": "item/enchanted_tier1"},
+		{"predicate": {"custom_model_data":4000226}, "model": "block/enchanted_tier2"},
+		{"predicate": {"custom_model_data":4000227}, "model": "block/enchanted_tier3"},
+		{"predicate": {"custom_model_data":4000228}, "model": "item/active_time_tier1"},
+		{"predicate": {"custom_model_data":4000229}, "model": "item/active_time_tier2"},
+		{"predicate": {"custom_model_data":4000230}, "model": "item/active_time_tier3"},
+		{"predicate": {"custom_model_data":4000231}, "model": "item/afk_time_tier1"},
+		{"predicate": {"custom_model_data":4000232}, "model": "item/afk_time_tier2"},
+		{"predicate": {"custom_model_data":4000233}, "model": "item/afk_time_tier3"},
+		{"predicate": {"custom_model_data":4000234}, "model": "item/2D_red_bed"},
+		{"predicate": {"custom_model_data":4000235}, "model": "item/clock_night"},
+		{"predicate": {"custom_model_data":4000236}, "model": "item/clock_day"}
+	]
+}

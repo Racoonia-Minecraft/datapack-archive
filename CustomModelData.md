@@ -64,5 +64,7 @@
 - `4000232`: Afk Time Trophy Tier2
 - `4000233`: Afk Time Trophy Tier3
 - `4000234`: 2D Red Bed
+- `4000235`: Clock Night
+- `4000236`: Clock Day
 
 - `40002xx`: x Trophy Tier1

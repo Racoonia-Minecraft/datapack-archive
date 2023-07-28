@@ -1,7 +1,8 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:clock"
+            "item": "minecraft:warped_fungus_on_a_stick",
+            "nbt": "{CustomModelData:4000235}"
         },
         "title": "Afk Time Tier1",
         "description": "You have been afk for a few minutes",

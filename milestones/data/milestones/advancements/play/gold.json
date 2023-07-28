@@ -1,7 +1,8 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:clock"
+            "item": "minecraft:warped_fungus_on_a_stick",
+            "nbt": "{CustomModelData:4000236}"
         },
         "title": "Play Time Tier3",
         "description": "You have played for 525960 minutes",
