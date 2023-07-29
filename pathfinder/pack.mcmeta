@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 10,
-        "description": "Allows non-ops to change specific data fields of items. Requires racooniacore."
+        "pack_format": 15,
+        "description": "Creates little paths when someone walks over grass blocks repeatedly. Requires racooniacore"
     }
 }

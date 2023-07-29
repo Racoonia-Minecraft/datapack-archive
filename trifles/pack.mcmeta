@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 10,
+        "pack_format": 15,
         "description": "Requires racooniacore, the Trifles resource pack and the random datapack by Aeldrion https://github.com/Aeldrion/Minecraft-Random."
     }
 }

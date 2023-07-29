@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 10,
+        "pack_format": 15,
         "description": "Allows non-ops to change specific data fields of items. Requires racooniacore."
     }
 }
