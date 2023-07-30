@@ -27,6 +27,9 @@
 - `4000110`: Present
 - `4000111`: Package
 
+- `4000112`: Block Button
+- `4000113`: Lever Button
+
 ### Simple Milestones (4000200-4000299)
 
 - `4000200`: Trophy
