@@ -1,1 +1,1 @@
-give @s pig_spawn_egg{display:{Name:'{"text":"Package","color":"gold","bold":true,"italic":false}',Lore:['{"text":"You can now give another"}','{"text":"player something nice!"}']},CustomModelData:4000111,EntityTag:{id:"minecraft:marker",Tags:["packages.place_package"]}}
+give @s ghast_spawn_egg{display:{Name:'{"text":"Package","color":"gold","bold":true,"italic":false}',Lore:['{"text":"You can now give another"}','{"text":"player something nice!"}']},CustomModelData:4000111,EntityTag:{id:"minecraft:marker",Tags:["packages.place_package"]}}

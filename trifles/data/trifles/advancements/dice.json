@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:pig_spawn_egg",
+      "item": "minecraft:ghast_spawn_egg",
       "nbt": "{CustomModelData:4000103}"
     },
     "title": "Alea iacta est",
@@ -19,7 +19,7 @@
         "items": [
           {
             "items": [
-              "minecraft:pig_spawn_egg"
+              "minecraft:ghast_spawn_egg"
             ],
             "nbt": "{trifles:{type:\"dice\"}}"
           }
