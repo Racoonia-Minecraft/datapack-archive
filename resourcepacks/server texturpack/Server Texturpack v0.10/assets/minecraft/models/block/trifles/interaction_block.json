@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "texture": "block/trifles/interaction_block"
+    "all": "block/trifles/interaction_block"
   }
 }
