@@ -4,7 +4,7 @@
             "item": "minecraft:ghast_spawn_egg",
             "nbt": "{CustomModelData:4000112}"
         },
-        "title": "05. September",
+        "title": "06. September",
         "description": "Now you can now create secret rooms",
         "frame": "task",
         "show_toast": false,

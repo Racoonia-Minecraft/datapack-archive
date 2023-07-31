@@ -4,9 +4,9 @@
             "item": "minecraft:elytra",
             "nbt": "{CustomModelData:4000002}"
         },
-        "title": "31. August",
+        "title": "01. September",
         "description": "Chestplates with wings for extra protection in the sky",
-        "frame": "task",
+        "frame": "goal",
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": false

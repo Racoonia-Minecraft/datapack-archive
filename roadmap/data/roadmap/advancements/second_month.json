@@ -1,16 +1,16 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:oak_sign"
+            "item": "minecraft:clock"
         },
-        "title": "31. August",
-        "description": "The ability to customize every texture you want",
-        "frame": "task",
+        "title": "29. August",
+        "description": "The start of the second server month",
+        "frame": "challenge",
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "roadmap:hot_beverages",
+    "parent": "roadmap:dice",
     "criteria": {
         "trigger": {
             "trigger": "minecraft:impossible"

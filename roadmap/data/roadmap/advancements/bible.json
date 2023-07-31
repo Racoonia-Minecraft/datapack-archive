@@ -4,7 +4,7 @@
             "item": "minecraft:warped_fungus_on_a_stick",
             "nbt": "{CustomModelData:4000109}"
         },
-        "title": "07. September",
+        "title": "08. September",
         "description": "A bible to catch up on your favorite quots",
         "frame": "task",
         "show_toast": false,

@@ -4,14 +4,14 @@
             "item": "minecraft:potion",
             "nbt": "{CustomModelData:4000105,CustomPotionColor:16777215}"
         },
-        "title": "29. August",
+        "title": "30. August",
         "description": "Some hot beverages to sip on, like Coffee, Hot Chocolate, Tea or an Espresso",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "roadmap:dice",
+    "parent": "roadmap:second_month",
     "criteria": {
         "trigger": {
             "trigger": "minecraft:impossible"

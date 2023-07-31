@@ -4,7 +4,7 @@
             "item": "minecraft:warped_fungus_on_a_stick",
             "nbt": "{CustomModelData:4000102}"
         },
-        "title": "01. September",
+        "title": "05. September",
         "description": "A nice hot infinit stew to enjoy",
         "frame": "task",
         "show_toast": false,
