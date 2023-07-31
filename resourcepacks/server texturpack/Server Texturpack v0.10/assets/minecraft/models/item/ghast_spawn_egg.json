@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/spawn_egg",
+		"layer1": "item/spawn_egg_overlay"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":4000103}, "model": "item/trifles/dice"},
+		{"predicate": {"custom_model_data":4000110}, "model": "item/libament_and_packages/present"},
+		{"predicate": {"custom_model_data":4000111}, "model": "item/libament_and_packages/package"},
+		{"predicate": {"custom_model_data":4000112}, "model": "block/trifles/interaction_block"}
+	]
+}

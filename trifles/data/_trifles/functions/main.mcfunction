@@ -3,6 +3,7 @@
 #declare entity $dice
 #declare entity $hot_beverages
 #declare entity $bible
+#declare entity $interaction_block
 
 # Handle
     # Mega Stew
@@ -14,6 +15,11 @@
 
     # Dice
     execute as @e[tag=trifles.dice_spawn] at @s run function _trifles:dice/spawn
+
+    # Block Button
+    execute as @e[tag=trifles.interaction_block_spawn] at @s run function _trifles:interaction_block/spawn
+    execute as @e[type=interaction,tag=trifles.block_button_interaction] at @s if block ~ ~ ~ air run function _trifles:block_button/break
+    execute as @e[type=interaction,tag=trifles.block_lever_interaction] at @s if block ~ ~ ~ air run function _trifles:block_lever/break
 
 # Craft
     # Pocket Cat
@@ -51,5 +57,9 @@
     # Bible
     execute if score $bible trifles.enabled matches 1 at @e[type=item,nbt={Item: {id: "minecraft:book", Count: 1b}}] at @e[type=item,nbt={Item: {id: "minecraft:golden_apple", Count: 1b}},distance=..0.5,sort=nearest,limit=1] if block ~ ~-0.1 ~ minecraft:crafting_table run summon item ~ ~ ~ {PickupDelay:20,Motion:[0.0,0.3,0.0],Tags:["trifles.bible.item_craft"],Item:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Bible","color":"aqua","italic":false}',Lore:['{"text":"The holy scriptures","color":"white","italic":false}','{"text":" "}','{"text":"“I am with you always,","color":"gray"}','{"text":"even unto the end of the world.”","color":"gray"}','{"text":"(Matthew 28:20)","color":"gray"}','{"text":" "}','{"text":"ᴛᴇxᴛᴜʀᴇᴅ ʙʏ ꜱɪᴍᴏɴ₁₀₂"}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000109,trifles:{is_gadget:1b,type:"bible"}}}}
     execute as @e[type=item,tag=trifles.bible.item_craft] at @s run function _trifles:craft/bible
+
+    # Interaction Block
+    execute if score $interaction_block trifles.enabled matches 1 at @e[type=item,nbt={Item: {id: "minecraft:redstone", Count: 4b}}] at @e[type=item,nbt={Item: {id: "minecraft:glass", Count: 1b}},distance=..0.5,sort=nearest,limit=1] if block ~ ~-0.1 ~ minecraft:crafting_table run summon item ~ ~ ~ {PickupDelay:20,Motion:[0.0,0.3,0.0],Tags:["trifles.interaction_block.item_craft"],Item:{id:"minecraft:ghast_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Interaction Block","color":"aqua","italic":false}',Lore:['{"text":"Disguise your button or lever as a block","color":"white","italic":false}','{"text":" "}','{"text":"\\"Follow your bliss and the","color":"gray","italic":true}','{"text":"universe will open doors","color":"gray"}','{"text":"where there were only walls.\\"","color":"gray"}','{"text":"- Joseph Campbell","color":"gray","italic":true}','{"text":" "}','{"text":"ᴛᴇxᴛᴜʀᴇᴅ ʙʏ ꜱɪᴍᴏɴ₁₀₂"}']},CustomModelData:4000112,trifles:{is_gadget:1b,type:"interaction_block"},EntityTag:{id:"minecraft:armor_stand",Marker:1b,Invisible:1b,Tags:["trifles.interaction_block_spawn"]}}}}
+    execute as @e[type=item,tag=trifles.interaction_block.item_craft] at @s run function _trifles:craft/interaction_block
 
 schedule function _trifles:main 20t

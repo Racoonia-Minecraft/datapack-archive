@@ -9,6 +9,8 @@ scoreboard objectives add trifles.megastewCooldown dummy
 execute unless score trifles trifles.megastewCooldown matches 1.. run scoreboard players set trifles trifles.megastewCooldown 60
 scoreboard objectives add trifles.diceAnimation dummy
 scoreboard objectives add trifles.animationLoop dummy
+scoreboard objectives add trifles.block_button_off dummy
+scoreboard objectives add trifles.block_lever dummy
 
 # scoreboard for enabeling trifles crafting
 scoreboard objectives add trifles.enabled dummy

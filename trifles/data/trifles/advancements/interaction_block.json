@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ghast_spawn_egg",
+      "nbt": "{CustomModelData:4000112}"
+    },
+    "title": "Secret Button",
+    "description": "Craft a Interaction Block",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "trifles:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ghast_spawn_egg"
+            ],
+            "nbt": "{trifles:{type:\"interaction_block\"}}"
+          }
+        ]
+      }
+    }
+  }
+}
