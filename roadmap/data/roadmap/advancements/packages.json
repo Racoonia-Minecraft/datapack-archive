@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:pig_spawn_egg",
+            "item": "minecraft:ghast_spawn_egg",
             "nbt": "{CustomModelData:4000111}"    
         },
         "title": "02. August",

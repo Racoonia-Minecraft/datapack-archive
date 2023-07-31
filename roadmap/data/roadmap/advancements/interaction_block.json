@@ -1,17 +1,17 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:warped_fungus_on_a_stick",
-            "nbt": "{CustomModelData:4000101}"
+            "item": "minecraft:ghast_spawn_egg",
+            "nbt": "{CustomModelData:4000112}"
         },
-        "title": "06. September",
-        "description": "A kitty cat to warn you from creepers",
+        "title": "05. September",
+        "description": "Now you can now create secret rooms",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "roadmap:interaction_block",
+    "parent": "roadmap:megastew",
     "criteria": {
         "trigger": {
             "trigger": "minecraft:impossible"
