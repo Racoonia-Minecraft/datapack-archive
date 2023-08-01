@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "trifles:root",
+  "parent": "trifles:cup",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:consume_item",

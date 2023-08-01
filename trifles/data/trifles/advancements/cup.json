@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:glass_bottle",
+      "nbt": "{CustomModelData:4000104}"
+    },
+    "title": "Now fill it up",
+    "description": "Half empty or half full? Just Empty!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "trifles:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glass_bottle"
+            ],
+            "nbt": "{trifles:{type:\"cup\"}}"
+          }
+        ]
+      }
+    }
+  }
+}
