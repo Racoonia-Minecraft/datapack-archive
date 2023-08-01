@@ -11,7 +11,7 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "trifles:root",
+  "parent": "trifles:megastew",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

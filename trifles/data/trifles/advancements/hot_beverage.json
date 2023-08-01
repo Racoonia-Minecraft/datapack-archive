@@ -2,21 +2,21 @@
   "display": {
     "icon": {
       "item": "minecraft:potion",
-      "nbt": "{CustomModelData:4000106,CustomPotionColor:16777215}"
+      "nbt": "{CustomModelData:4000105,CustomPotionColor:16777215}"
     },
-    "title": "Warm your insides",
-    "description": "So warm and tasty!",
+    "title": "Hot hot hot!",
+    "description": "Don't burn your toung",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "trifles:coffee",
+  "parent": "trifles:dice",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{trifles:{type:\"hot_chocolate\"}}"
+          "nbt": "{trifles:{group:\"hot_beverage\"}}"
         }
       }
     }

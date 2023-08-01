@@ -11,7 +11,7 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "trifles:dice",
+  "parent": "trifles:hot_beverage",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
