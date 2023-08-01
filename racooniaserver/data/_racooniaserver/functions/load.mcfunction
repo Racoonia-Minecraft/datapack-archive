@@ -32,6 +32,7 @@ scoreboard objectives add racooniaserver.y_rotation dummy
 scoreboard objectives add racooniaserver.setting dummy
 execute unless score $weak_creepers racooniaserver.setting matches 1 run scoreboard players set $weak_creepers racooniaserver.setting 0
 execute unless score $block_end racooniaserver.setting matches 1 run scoreboard players set $block_end racooniaserver.setting 0
+execute unless entity @e[type=marker,tag=racooniaserver.spawnpoint] run function racooniaserver:setspawn
 
 # Registration
 data merge storage racoonia:datapacks {racooniaserver:{installed:true,version:"1.0",version_number:2}}
