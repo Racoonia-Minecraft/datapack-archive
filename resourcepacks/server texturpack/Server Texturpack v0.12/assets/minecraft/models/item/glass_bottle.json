@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/glass_bottle"
+  },
+
+  "overrides": [
+	  {"predicate": {"custom_model_data":4000104}, "model": "item/trifles/empty_cup"}
+  ]
+}
