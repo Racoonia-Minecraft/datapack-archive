@@ -11,7 +11,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{display:{Name:'{\"text\":\"Golden Dying Trophy\",\"color\":\"#FDF55F\",\"italic\":false}',Lore:['{\"text\":\"A trophy for dying 27 times.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Dieing Tier3:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have died a lot of times\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000212}"
+          "tag": "{display:{Name:'{\"text\":\"Golden Dying Trophy\",\"color\":\"#FDF55F\",\"italic\":false}',Lore:['{\"text\":\"A trophy for dying 27 times.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"You have 5 minuts:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Go find your items!\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000212}"
         }
       ]
     }

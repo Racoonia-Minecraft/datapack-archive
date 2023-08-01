@@ -11,7 +11,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{display:{Name:'{\"text\":\"Bronze Flying Trophy\",\"color\":\"#C15A36\",\"italic\":false}',Lore:['{\"text\":\"A trophy for flying 50,000 blocks.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Flying Tier1\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have flowen a few blocks\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000213}"
+          "tag": "{display:{Name:'{\"text\":\"Bronze Flying Trophy\",\"color\":\"#C15A36\",\"italic\":false}',Lore:['{\"text\":\"A trophy for flying 50,000 blocks.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Pilot:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Fly with the Phantoms\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000213}"
         }
       ]
     }

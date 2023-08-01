@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:firework_rocket"
         },
-        "title": "Flying Tier2",
-        "description": "You have flowen some blocks",
+        "title": "Rocket Powerd",
+        "description": "Think about the emissions",
         "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,

@@ -11,7 +11,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{display:{Name:'{\"text\":\"Bronze Killing Trophy\",\"color\":\"#C15A36\",\"italic\":false}',Lore:['{\"text\":\"A trophy for killing 50 mobs.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Killing Tier1:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have killed a few Mobs\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000207}"
+          "tag": "{display:{Name:'{\"text\":\"Bronze Killing Trophy\",\"color\":\"#C15A36\",\"italic\":false}',Lore:['{\"text\":\"A trophy for killing 50 mobs.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Hunter:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Be the hunter, not he hunted\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000207}"
         }
       ]
     }

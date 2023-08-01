@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:wooden_sword"
         },
-        "title": "Killing Teaser",
-        "description": "You have killed mobs",
+        "title": "Pentakill",
+        "description": "+ 5 Bonus XP",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,

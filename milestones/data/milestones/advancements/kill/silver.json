@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:crossbow"
         },
-        "title": "Killing Tier2",
-        "description": "You have killed some Mobs",
+        "title": "Frenzy",
+        "description": "You are on a rampage",
         "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,

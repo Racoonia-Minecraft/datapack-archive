@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:feather"
         },
-        "title": "Flying Teaser",
-        "description": "You have flown",
+        "title": "Spread your wings",
+        "description": "Fly away, far away",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,

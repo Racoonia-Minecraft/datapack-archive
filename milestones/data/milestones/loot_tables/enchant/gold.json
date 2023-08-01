@@ -11,7 +11,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{display:{Name:'{\"text\":\"Golden Enchanting Trophy\",\"color\":\"#FDF55F\",\"italic\":false}',Lore:['{\"text\":\"A trophy for enchanting 200 times.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Enchanting Tier3:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have enchanted a lot of items\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000227}"
+          "tag": "{display:{Name:'{\"text\":\"Golden Enchanting Trophy\",\"color\":\"#FDF55F\",\"italic\":false}',Lore:['{\"text\":\"A trophy for enchanting 200 times.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Archmage:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Next step: Enchanting people\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000227}"
         }
       ]
     }

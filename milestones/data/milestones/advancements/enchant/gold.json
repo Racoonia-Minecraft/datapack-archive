@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:enchanting_table"
         },
-        "title": "Enchanting Tier3",
-        "description": "You have enchanted a lot of items",
+        "title": "Archmage",
+        "description": "Next step: Enchanting people",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

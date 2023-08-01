@@ -5,7 +5,7 @@
             "nbt": "{CustomModelData:4000235}"
         },
         "title": "Afk Time Tier3",
-        "description": "You have been afk for a lot of minutes",
+        "description": "I'll be back in 5 minuts, I swear",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

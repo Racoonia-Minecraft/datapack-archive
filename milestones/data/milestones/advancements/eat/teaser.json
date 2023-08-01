@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:bread"
         },
-        "title": "Eating Teaser",
-        "description": "You have eaten",
+        "title": "German Bread",
+        "description": "Yeast, water, flour and salt",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,

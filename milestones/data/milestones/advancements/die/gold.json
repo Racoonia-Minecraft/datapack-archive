@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:recovery_compass"
         },
-        "title": "Dying Tier3",
-        "description": "You have died a lot of times",
+        "title": "You have 5 minuts",
+        "description": "Go find your items!",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

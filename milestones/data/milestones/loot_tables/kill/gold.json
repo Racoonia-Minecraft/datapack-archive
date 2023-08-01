@@ -11,7 +11,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{display:{Name:'{\"text\":\"Golden Killing Trophy\",\"color\":\"#FDF55F\",\"italic\":false}',Lore:['{\"text\":\"A trophy for killing 5,000 mobs.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Killing Tier3:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have killed a lot of Mobs\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000209}"
+          "tag": "{display:{Name:'{\"text\":\"Golden Killing Trophy\",\"color\":\"#FDF55F\",\"italic\":false}',Lore:['{\"text\":\"A trophy for killing 5,000 mobs.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Apex Predator:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"I find it\\'s best to wait... for the perfect kill\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000209}"
         }
       ]
     }

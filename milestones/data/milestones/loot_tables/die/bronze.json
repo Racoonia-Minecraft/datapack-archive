@@ -11,7 +11,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{display:{Name:'{\"text\":\"Bronze Dying Trophy\",\"color\":\"#C15A36\",\"italic\":false}',Lore:['{\"text\":\"A trophy for dying 3 times.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Armorer:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"You have died a few times\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000210}"
+          "tag": "{display:{Name:'{\"text\":\"Bronze Dying Trophy\",\"color\":\"#C15A36\",\"italic\":false}',Lore:['{\"text\":\"A trophy for dying 3 times.\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Armorer:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Get yourself some protection\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,CustomModelData:4000210}"
         }
       ]
     }

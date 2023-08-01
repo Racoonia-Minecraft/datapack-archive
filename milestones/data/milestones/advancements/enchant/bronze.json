@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:enchanted_book"
         },
-        "title": "Enchanting Tier1",
-        "description": "You have enchanted a few items",
+        "title": "Wizard",
+        "description": "Watch out for curses now!",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,

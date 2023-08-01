@@ -4,8 +4,8 @@
             "item": "minecraft:warped_fungus_on_a_stick",
             "nbt": "{CustomModelData:4000236}"
         },
-        "title": "Play Time Tier3",
-        "description": "You have played for 525960 minutes",
+        "title": "Do you have a life?",
+        "description": "Please log off...",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

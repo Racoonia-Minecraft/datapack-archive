@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:elytra"
         },
-        "title": "Flying Tier3",
-        "description": "You have flowen a lot of blocks blocks",
+        "title": "Icarus",
+        "description": "Don't fly to close to the sun",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

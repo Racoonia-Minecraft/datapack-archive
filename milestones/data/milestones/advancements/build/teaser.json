@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:spruce_door"
         },
-        "title": "Building Teaser",
-        "description": "Let yourself in.",
+        "title": "r/place",
+        "description": "Place more than a pixel",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,

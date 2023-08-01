@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:trident"
         },
-        "title": "Killing Tier3",
-        "description": "You have killed a lot of Mobs",
+        "title": "Apex Predator",
+        "description": "I find it's best to wait... for the perfect kill",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

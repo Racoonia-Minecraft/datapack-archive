@@ -4,7 +4,7 @@
             "item": "minecraft:warped_fungus_on_a_stick",
             "nbt": "{CustomModelData:4000235}"
         },
-        "title": "Afk Time Teaser",
+        "title": "Be right back",
         "description": "You have been afk",
         "frame": "task",
         "show_toast": true,

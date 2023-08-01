@@ -5,7 +5,7 @@
             "nbt": "{CustomModelData:4000236}"
         },
         "title": "Play Time Tier1",
-        "description": "You have played for a few minutes",
+        "description": "You have played for a few hours",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
