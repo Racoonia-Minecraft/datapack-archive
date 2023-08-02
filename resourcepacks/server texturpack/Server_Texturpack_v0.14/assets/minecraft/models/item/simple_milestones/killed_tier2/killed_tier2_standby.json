@@ -1,0 +1,6 @@
+{
+    "parent": "item/crossbow",
+    "textures": {
+        "layer0": "item/simple_milestones/killed_tier2/killed_tier2_standby"
+    }
+}

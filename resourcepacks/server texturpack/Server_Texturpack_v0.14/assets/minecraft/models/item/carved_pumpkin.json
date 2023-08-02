@@ -1,0 +1,36 @@
+{
+  "credit":"This part and all used files were made by gotura",
+  
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "minecraft:block/carved_pumpkin",
+    "side": "minecraft:block/pumpkin_side",
+    "top": "minecraft:block/pumpkin_top"
+  },
+  "overrides":[
+    {
+      "predicate":{"custom_model_data":1470000},
+      "model": "hats/tophat"
+    },
+    {
+      "predicate":{"custom_model_data":1470001},
+      "model": "hats/racoon_ears"
+    },
+    {
+      "predicate":{"custom_model_data":1470002},
+      "model": "hats/hamster_head"
+    },
+    {
+      "predicate":{"custom_model_data":1470003},
+      "model": "hats/tophat_catears"
+    },
+    {
+      "predicate":{"custom_model_data":1470004},
+      "model": "hats/witch_hat"
+    },
+    {
+      "predicate":{"custom_model_data":1470100},
+      "model": "hats/shifted_moss_block"
+    }
+  ]
+}
