@@ -4,14 +4,14 @@
             "item": "minecraft:warped_fungus_on_a_stick",
             "nbt": "{CustomModelData:4000109}"
         },
-        "title": "08. September",
+        "title": "03. August",
         "description": "A bible to catch up on your favorite quots",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "roadmap:pocketcat",
+    "parent": "roadmap:packages",
     "criteria": {
         "trigger": {
             "trigger": "minecraft:impossible"

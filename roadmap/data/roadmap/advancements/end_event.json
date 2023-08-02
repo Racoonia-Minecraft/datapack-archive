@@ -10,7 +10,7 @@
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "roadmap:packages",
+    "parent": "roadmap:pocketcat",
     "criteria": {
         "trigger": {
             "trigger": "minecraft:impossible"
