@@ -11,7 +11,7 @@
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "roadmap:megastew",
+    "parent": "roadmap:end_event",
     "criteria": {
         "trigger": {
             "trigger": "minecraft:impossible"

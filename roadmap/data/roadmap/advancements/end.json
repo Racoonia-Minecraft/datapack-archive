@@ -10,7 +10,7 @@
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "roadmap:interaction_block",
+    "parent": "roadmap:phantomwings",
     "criteria": {
         "trigger": {
             "trigger": "minecraft:tick"
