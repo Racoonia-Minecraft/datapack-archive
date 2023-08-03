@@ -10,7 +10,7 @@
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "roadmap:bible",
+    "parent": "roadmap:interaction_block",
     "criteria": {
         "trigger": {
             "trigger": "minecraft:tick"
