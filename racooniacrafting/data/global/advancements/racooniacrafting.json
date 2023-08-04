@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Racooniacrafting",
+        "description": "The crafting system used in most Racoonia datapacks.",
+        "icon": {
+            "item": "minecraft:crafting_table"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:racoonia",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
