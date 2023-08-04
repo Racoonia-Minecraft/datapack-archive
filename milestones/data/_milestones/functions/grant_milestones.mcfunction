@@ -6,14 +6,6 @@ advancement grant @a[scores={milestones.afk=900..}] until milestones:afk/silver
 advancement grant @a[scores={milestones.afk=300..}] until milestones:afk/bronze
 advancement grant @a[scores={milestones.afk=60..}] until milestones:afk/teaser
 
-# Build Milestone
-advancement grant @a[scores={milestones.blocksPlaced=20000..}] until milestones:build/gold
-advancement grant @a[scores={milestones.blocksPlaced=2000..}] until milestones:build/silver
-advancement grant @a[scores={milestones.blocksPlaced=200..}] until milestones:build/bronze
-advancement grant @a[scores={milestones.blocksPlaced=20..}] until milestones:build/teaser
-
-# Craft Milestone
-
 # Death Milestone
 advancement grant @a[scores={milestones.deaths=27..}] until milestones:die/gold
 advancement grant @a[scores={milestones.deaths=9..}] until milestones:die/silver

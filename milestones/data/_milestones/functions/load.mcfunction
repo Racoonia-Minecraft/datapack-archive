@@ -39,8 +39,6 @@
 # Milestone scoreboards
     # AFK time is in minutes
     scoreboard objectives add milestones.afk dummy
-    # Amount of blocks placed
-    scoreboard objectives add milestones.blocksPlaced dummy
     # Times died
     scoreboard objectives add milestones.deaths deathCount
     # Amount of food eaten
@@ -71,5 +69,5 @@
     scoreboard objectives add milestones_progress trigger
 
 # Registration
-data merge storage racoonia:datapacks {milestones:{installed:true,version:"1.0",version_number:2}}
+data merge storage racoonia:datapacks {milestones:{installed:true,version:"1.1",version_number:3}}
 schedule function _milestones:dep_check 1t
