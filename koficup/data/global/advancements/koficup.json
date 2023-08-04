@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Koficup",
+        "description": "Adds server benefits for kofi supporters.",
+        "icon": {
+            "item": "minecraft:cocoa_beans"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:racoonia",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
