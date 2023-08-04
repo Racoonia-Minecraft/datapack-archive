@@ -11,7 +11,7 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "trifles:root",
+  "parent": "racoonia:root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
