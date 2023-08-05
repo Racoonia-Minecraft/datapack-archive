@@ -3,5 +3,5 @@
 
 data modify storage racoonia:core input set from entity @s[tag=!global.ignore] SelectedItem
 data remove storage racoonia:core input.tag.CustomModelData
-function racooniacore:replace_hand_from_storage
+execute at @s run function racooniacore:replace_hand_from_storage
 tellraw @s[tag=!global.ignore,tag=!global.ignore.gui] {"text": "CustomModelData removed!", "color": "green"}
