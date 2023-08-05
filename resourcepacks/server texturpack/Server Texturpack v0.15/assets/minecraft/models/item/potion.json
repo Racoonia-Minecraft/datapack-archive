@@ -1,0 +1,14 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/potion_overlay",
+        "layer1": "item/potion"
+    },
+
+    "overrides": [
+        {"predicate": {"custom_model_data":4000105}, "model": "item/trifles/coffee"},
+        {"predicate": {"custom_model_data":4000106}, "model": "item/trifles/hot_chocolate"},
+        {"predicate": {"custom_model_data":4000107}, "model": "item/trifles/tea"},
+        {"predicate": {"custom_model_data":4000108}, "model": "item/trifles/espresso"}
+    ]
+}
