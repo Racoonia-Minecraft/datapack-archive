@@ -1,2 +1,0 @@
-data merge entity @s {PickupDelay:20,Motion:[0.0,0.3,0.0],Item:{id:"minecraft:carved_pumpkin",Count:1b,tag:{display:{Name:'{"text":"Turtle Pumpkin","color":"aqua","italic":false}',Lore:['{"text":"Turtle Helmet with a Carved Pumpkin","color":"dark_purple"}','{"text":"attached","color":"dark_purple"}']},phantomwings:{is_helmet:1b,type:7},AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:2,Operation:0,UUID:[I;2145096633,1419658560,-1576507310,1096461450],Slot:"head"}]}}}
-function _phantomwings:craft
