@@ -29,6 +29,10 @@
       "model": "hats/witch_hat"
     },
     {
+      "predicate":{"custom_model_data":1470005},
+      "model": "hats/tophat_racoonears"
+    },
+    {
       "predicate":{"custom_model_data":1470100},
       "model": "hats/shifted_moss_block"
     }
