@@ -450,8 +450,8 @@
 		},
 		"head": {
 			"rotation": [6, 0, 0],
-			"translation": [0, 21, 1.5],
-			"scale": [2, 2, 2]
+			"translation": [0, 19.25, 1.5],
+			"scale": [1.75, 1.75, 1.75]
 		},
 		"fixed": {
 			"translation": [0, 4.5, 0]
