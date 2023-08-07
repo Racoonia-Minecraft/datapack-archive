@@ -13,6 +13,7 @@ execute as @s[nbt={Item: {tag: {phantomwings: {type: 16b}}}}] run function _phan
 execute as @s[nbt={Item: {tag: {phantomwings: {type: 17b}}}}] run function _phantomwings:split/helmet/turtle
 data remove entity @s Item.tag.display
 data remove entity @s Item.tag.CustomModelData
-data remove entity @s Item.tag.phantomwings
 data remove entity @s Item.tag.AttributeModifiers
 data modify entity @e[type=item,tag=phantomwings.split,sort=nearest,limit=1] Item.Count set from entity @s Item.Count
+data modify entity @e[type=item,tag=phantomwings.split,sort=nearest,limit=1] Item.tag.Damage set from entity @s Item.tag.phantomwings.saved.Damage
+data remove entity @s Item.tag.phantomwings
