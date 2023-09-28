@@ -35,7 +35,7 @@ execute unless score $block_end racooniaserver.setting matches 1 run scoreboard 
 execute unless entity @e[type=marker,tag=racooniaserver.spawnpoint] run function racooniaserver:setspawn
 
 # Registration
-data merge storage racoonia:datapacks {racooniaserver:{installed:true,version:"1.0",version_number:2}}
+data merge storage racoonia:datapacks {racooniaserver:{version:"1.1",version_number:3}}
 
 # Start Loop
 schedule function _racooniaserver:main 1t

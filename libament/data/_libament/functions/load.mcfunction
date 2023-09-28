@@ -9,5 +9,5 @@ scoreboard players set $presentLimit libament.rename_time 600
 scoreboard objectives add libament.allow_opening dummy
 
 # Registration
-data merge storage racoonia:datapacks {libament:{installed:true,version:"1.1",version_number:2}}
+data merge storage racoonia:datapacks {libament:{version:"1.2",version_number:3}}
 schedule function _libament:dep_check 1t

@@ -3,6 +3,6 @@
 scoreboard objectives add racoonanimation.frame dummy
 
 # Registration
-data merge storage racoonia:datapacks {racoonanimation:{installed:true,version:"1.1",version_number:2}}
+data merge storage racoonia:datapacks {racoonanimation:{version:"1.2",version_number:3}}
 
 function _racoonanimation:main

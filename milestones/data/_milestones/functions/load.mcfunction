@@ -69,5 +69,5 @@
     scoreboard objectives add milestones_progress trigger
 
 # Registration
-data merge storage racoonia:datapacks {milestones:{installed:true,version:"1.1",version_number:3}}
+data merge storage racoonia:datapacks {milestones:{version:"1.2",version_number:4}}
 schedule function _milestones:dep_check 1t

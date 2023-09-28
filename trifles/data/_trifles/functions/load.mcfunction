@@ -16,5 +16,5 @@ scoreboard objectives add trifles.block_lever dummy
 scoreboard objectives add trifles.enabled dummy
 
 # Registration
-data merge storage racoonia:datapacks {trifles:{installed:true,version:"1.1",version_number:3}}
+data merge storage racoonia:datapacks {trifles:{version:"1.2",version_number:4}}
 schedule function _trifles:dep_check 1t

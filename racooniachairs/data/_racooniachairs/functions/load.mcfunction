@@ -6,7 +6,7 @@ scoreboard objectives add racooniachairs_sit dummy
 scoreboard objectives add racoonia_entity_version dummy
 
 # Registration
-data merge storage racoonia:datapacks {racooniachairs:{installed:true,version:"1.0",version_number:1}}
+data merge storage racoonia:datapacks {racooniachairs:{version:"1.1",version_number:2}}
 
 # Start Loops
 schedule function _racooniachairs:main 1t
