@@ -2,7 +2,7 @@
 #declare storage racoonia:datapacks
 
 scoreboard objectives remove racoonia.math
-scoreboard objectives remove racoonia.coinToss
+scoreboard objectives remove racoonia.random
 
 data remove storage racoonia:core input
 data remove storage racoonia:core output

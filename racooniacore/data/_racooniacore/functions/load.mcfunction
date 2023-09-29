@@ -17,7 +17,7 @@
 
 # Setup scoreboard
 scoreboard objectives add racoonia.math dummy
-scoreboard objectives add racoonia.coinToss dummy
+scoreboard objectives add racoonia.random dummy
 
 # Setup scoreboard constants
 scoreboard players set #2 racoonia.math 2
