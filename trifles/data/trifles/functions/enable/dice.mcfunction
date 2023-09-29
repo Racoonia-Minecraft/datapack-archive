@@ -1,3 +1,3 @@
-#declare entity $dice
+#declare entity #dice
 
-scoreboard players set $dice trifles.enabled 1
+scoreboard players set #dice trifles.enabled 1

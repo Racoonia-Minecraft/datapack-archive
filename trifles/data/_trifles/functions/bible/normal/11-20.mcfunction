@@ -1,5 +1,5 @@
 #declare objective random
-#declare entity $out
+#declare entity #out
 
 # Bible quotes
 execute if score $out random matches 11 run tellraw @s [{"text":"“Ein Fest ist zum Lachen da, Wein macht das Leben fröhlich, und Geld ist die Antwort auf alles.” "},{"text":"(Sirach 10:19)", "color": "gray"}]

@@ -1,5 +1,5 @@
 #declare objective random
-#declare entity $out
+#declare entity #out
 
 # Racoonia quotes
 execute if score $out random matches 41 run tellraw @s [{"text":"“Schiebe ich mir lieber einen Hamster in den Arsch oder ficke ich lieber die falsche Schwester” "},{"text":"(Michael 10:22)", "color": "gray"}]

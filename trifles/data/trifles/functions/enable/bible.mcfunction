@@ -1,3 +1,3 @@
-#declare entity $bible
+#declare entity #bible
 
-scoreboard players set $bible trifles.enabled 1
+scoreboard players set #bible trifles.enabled 1

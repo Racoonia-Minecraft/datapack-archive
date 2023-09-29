@@ -2,8 +2,8 @@
 
 #declare function random:uniform
 #declare objective random
-#declare entity $min
-#declare entity $max
+#declare entity #min
+#declare entity #max
 
 scoreboard players set $min random 1
 scoreboard players set $max random 6

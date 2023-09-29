@@ -1,5 +1,5 @@
-#declare entity $racoonia
-#declare entity $packageLimit
+#declare entity #racoonia
+#declare entity #packageLimit
 #declare tag global.ignore
 
 execute at @e[type=item,nbt={Item: {id: "minecraft:paper", Count: 1b}}] at @e[type=item,nbt={Item: {id: "minecraft:brown_dye", Count: 1b}},distance=..0.5,sort=nearest,limit=1] run summon item ~ ~ ~ {PickupDelay:20,Motion:[0.0,0.3,0.0],Tags:["packages.item_craft"],Item:{id:"minecraft:ghast_spawn_egg",Count:1b,tag:{display:{Name:'{"text":"Package","color":"gold","bold":true,"italic":false}',Lore:['{"text":"You can now give another"}','{"text":"player something nice!"}']},CustomModelData:4000111,EntityTag:{id:"minecraft:marker",Tags:["packages.place_package"]}}}}
@@ -19,6 +19,6 @@ execute as @e[type=minecraft:marker,tag=packages.package_unfinished] at @s unles
 execute as @e[type=minecraft:armor_stand,tag=packages.package_name] if data entity @s HandItems[0].id at @s run function _packages:package/try_rename
 
 scoreboard players add @e[type=minecraft:armor_stand,tag=packages.package_name,tag=!packages.package_renamed] packages.rename_time 1
-execute as @e[type=minecraft:armor_stand,tag=packages.package_name,tag=!packages.package_renamed] if score @s packages.rename_time >= $packageLimit packages.rename_time run kill @s[tag=!global.ignore,tag=!global.ignore.kill]
+execute as @e[type=minecraft:armor_stand,tag=packages.package_name,tag=!packages.package_renamed] if score @s packages.rename_time >= #packageLimit packages.rename_time run kill @s[tag=!global.ignore,tag=!global.ignore.kill]
 
 schedule function _packages:main 20t

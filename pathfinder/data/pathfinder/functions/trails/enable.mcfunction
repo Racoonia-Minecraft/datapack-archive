@@ -1,3 +1,3 @@
-#declare entity $trails
+#declare entity #trails
 
-scoreboard players set $trails pathfinder.setting 1
+scoreboard players set #trails pathfinder.setting 1

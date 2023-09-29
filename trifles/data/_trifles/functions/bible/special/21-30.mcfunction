@@ -1,5 +1,5 @@
 #declare objective random
-#declare entity $out
+#declare entity #out
 
 # Racoonia quotes
 execute if score $out random matches 21 run tellraw @s [{"text":"“Dein Arsch war in der Schüssel drin, ich hab's gesehen” "},{"text":"(gotura 5:23)", "color": "gray"}]

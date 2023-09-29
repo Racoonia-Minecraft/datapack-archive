@@ -1,8 +1,8 @@
 #declare function random:uniform
-#declare entity $chance
-#declare entity $min
-#declare entity $max
-#declare entity $out
+#declare entity #chance
+#declare entity #min
+#declare entity #max
+#declare entity #out
 
 scoreboard players set $min random 1
 scoreboard players set $max random 61

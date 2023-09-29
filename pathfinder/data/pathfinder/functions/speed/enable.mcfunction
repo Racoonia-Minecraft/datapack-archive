@@ -1,3 +1,3 @@
-#declare entity $speed
+#declare entity #speed
 
-scoreboard players set $speed pathfinder.setting 1
+scoreboard players set #speed pathfinder.setting 1

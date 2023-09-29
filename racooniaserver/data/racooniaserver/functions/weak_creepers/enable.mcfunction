@@ -1,3 +1,3 @@
-#declare entity $weak_creepers
+#declare entity #weak_creepers
 
-scoreboard players set $weak_creepers racooniaserver.setting 1
+scoreboard players set #weak_creepers racooniaserver.setting 1

@@ -1,3 +1,3 @@
-#declare entity $megastew
+#declare entity #megastew
 
-scoreboard players set $megastew trifles.enabled 0
+scoreboard players set #megastew trifles.enabled 0

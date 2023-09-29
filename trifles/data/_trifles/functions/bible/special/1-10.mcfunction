@@ -1,5 +1,5 @@
 #declare objective random
-#declare entity $out
+#declare entity #out
 
 # Bible quotes
 execute if score $out random matches 1 run tellraw @s [{"text":"“Ich lauf über!” "},{"text":"(Racooder 6:23)", "color": "gray"}]

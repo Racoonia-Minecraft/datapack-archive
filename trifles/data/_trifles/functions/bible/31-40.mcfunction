@@ -1,5 +1,5 @@
 #declare objective random
-#declare entity $out
+#declare entity #out
 
 # Racoonia quotes
 execute if score $out random matches 31 run tellraw @s [{"text":"“Simon, nimm mal den Dick aus dem Mund!” "},{"text":"(Michael 2:22)", "color": "gray"}]

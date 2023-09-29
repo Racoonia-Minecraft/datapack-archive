@@ -1,3 +1,3 @@
-#declare entity $block_end
+#declare entity #block_end
 
-scoreboard players set $block_end racooniaserver.setting 0
+scoreboard players set #block_end racooniaserver.setting 0

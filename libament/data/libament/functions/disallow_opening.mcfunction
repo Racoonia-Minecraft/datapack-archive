@@ -1,3 +1,3 @@
-#declare entity $racoonia
+#declare entity #racoonia
 
-scoreboard players set $racoonia libament.allow_opening 0
+scoreboard players set #racoonia libament.allow_opening 0

@@ -1,9 +1,9 @@
 #declare storage racoonia:datapacks
-#declare entity $racooniacore
+#declare entity #racooniacore
 
 scoreboard objectives add racoonia.depCheck dummy
-execute store result score $racooniacore racoonia.depCheck run data get storage racoonia:datapacks racooniacore.version_number
-execute unless score $racooniacore racoonia.depCheck matches 2.. run tellraw @a [{"text":"[Pathfinder]","color":"white","bold":true},{"text":" Couldn't find dependency 'racooniacore' version >= 1.1\n","color":"red"},{"text": "Please install it from https://github.com/Racoonia-Datapacks/datapacks/releases","color":"yellow","clickEvent": {"action": "open_url", "value": "https://github.com/Racoonia-Datapacks/datapacks/releases"}}]
-execute if score $racooniacore racoonia.depCheck matches 2.. run function _pathfinder:main
-execute if score $racooniacore racoonia.depCheck matches 2.. run function _pathfinder:trail/loop
+execute store result score #racooniacore racoonia.depCheck run data get storage racoonia:datapacks racooniacore.version_number
+execute unless score #racooniacore racoonia.depCheck matches 2.. run tellraw @a [{"text":"[Pathfinder]","color":"white","bold":true},{"text":" Couldn't find dependency 'racooniacore' version >= 1.1\n","color":"red"},{"text": "Please install it from https://github.com/Racoonia-Datapacks/datapacks/releases","color":"yellow","clickEvent": {"action": "open_url", "value": "https://github.com/Racoonia-Datapacks/datapacks/releases"}}]
+execute if score #racooniacore racoonia.depCheck matches 2.. run function _pathfinder:main
+execute if score #racooniacore racoonia.depCheck matches 2.. run function _pathfinder:trail/loop
 scoreboard objectives remove racoonia.depCheck

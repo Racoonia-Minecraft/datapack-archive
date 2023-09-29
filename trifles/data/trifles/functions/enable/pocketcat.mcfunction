@@ -1,3 +1,3 @@
-#declare entity $pocketcat
+#declare entity #pocketcat
 
-scoreboard players set $pocketcat trifles.enabled 1
+scoreboard players set #pocketcat trifles.enabled 1

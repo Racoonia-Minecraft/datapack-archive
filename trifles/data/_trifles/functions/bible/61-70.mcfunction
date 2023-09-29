@@ -1,5 +1,5 @@
 #declare objective random
-#declare entity $out
+#declare entity #out
 
 # Racoonia quotes
 execute if score $out random matches 61 run tellraw @s [{"text":"“Wo finde ich diesen 'Any Key'?” "},{"text":"(maxderprof 1:22)", "color": "gray"}]

@@ -1,5 +1,5 @@
 #declare objective random
-#declare entity $out
+#declare entity #out
 
 # Bible quotes
 execute if score $out random matches 21 run tellraw @s [{"text":"“Und Gott sprach: Es werde Licht! Und es ward Licht.” "},{"text":"(Genesis 1:3)", "color": "gray"}]

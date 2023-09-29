@@ -1,3 +1,3 @@
-#declare entity $hot_beverages
+#declare entity #hot_beverages
 
-scoreboard players set $hot_beverages trifles.enabled 1
+scoreboard players set #hot_beverages trifles.enabled 1

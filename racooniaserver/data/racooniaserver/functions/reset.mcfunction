@@ -26,5 +26,5 @@ scoreboard players reset * racooniaserver.y_rotation
 # Reset Settings
 scoreboard players reset * racooniaserver.setting
 
-scoreboard players set $weak_creepers racooniaserver.setting 0
-scoreboard players set $block_end racooniaserver.setting 0
+scoreboard players set #weak_creepers racooniaserver.setting 0
+scoreboard players set #block_end racooniaserver.setting 0

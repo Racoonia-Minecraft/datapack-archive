@@ -1,9 +1,9 @@
 #declare storage racoonia:milestones
 #declare objective racoonia.math
-#declare entity $100
+#declare entity #100
 
 execute store result score @s milestones.percentage run scoreboard players get @s milestones.progress
-scoreboard players operation @s milestones.percentage *= $100 racoonia.math
+scoreboard players operation @s milestones.percentage *= #100 racoonia.math
 scoreboard players operation @s milestones.percentage /= @s milestones.target
 data modify storage racoonia:milestones progressbar.done set value ""
 data modify storage racoonia:milestones progressbar.undone set value "▒▒▒▒▒▒▒▒▒▒"

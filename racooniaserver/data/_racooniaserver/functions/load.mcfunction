@@ -1,6 +1,6 @@
 #declare storage racoonia:datapacks
-#declare entity $weak_creepers
-#declare entity $block_end
+#declare entity #weak_creepers
+#declare entity #block_end
 
 # Setup Scoreboard
 scoreboard objectives add racooniaserver.deathCount deathCount
@@ -30,8 +30,8 @@ scoreboard objectives add racooniaserver.y_rotation dummy
 
 # Setup Settings
 scoreboard objectives add racooniaserver.setting dummy
-execute unless score $weak_creepers racooniaserver.setting matches 1 run scoreboard players set $weak_creepers racooniaserver.setting 0
-execute unless score $block_end racooniaserver.setting matches 1 run scoreboard players set $block_end racooniaserver.setting 0
+execute unless score #weak_creepers racooniaserver.setting matches 1 run scoreboard players set #weak_creepers racooniaserver.setting 0
+execute unless score #block_end racooniaserver.setting matches 1 run scoreboard players set #block_end racooniaserver.setting 0
 execute unless entity @e[type=marker,tag=racooniaserver.spawnpoint] run function racooniaserver:setspawn
 
 # Registration
