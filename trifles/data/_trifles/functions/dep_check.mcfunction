@@ -1,5 +1,5 @@
 #declare storage racoonia:datapacks
-#declare function racondom:geometric
+#declare function random:uniform
 #declare entity #racooniacore
 #declare entity #random
 
