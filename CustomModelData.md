@@ -73,5 +73,6 @@
 
 ### Bandit Game (4001000 - 4001099)
 
-> Repository can be found [here](https://github.com/Racoonia-Datapacks/bandit-game)
-> List of CustomModelIds can be found [here](https://github.com/Racoonia-Datapacks/bandit-game/blob/main/CustomModelData.md)
+> Repository can be found [here](https://github.com/Racoonia-Datapacks/bandit-game).
+
+> The list of CustomModelIds for Bandit Game can be found [here](https://github.com/Racoonia-Datapacks/bandit-game/blob/main/CustomModelData.md)
