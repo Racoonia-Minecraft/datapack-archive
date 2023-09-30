@@ -70,3 +70,7 @@
 - `4000236`: Clock Day
 
 - `40002xx`: x Trophy Tier1
+
+### Bandit Game (4001000 - 4001099)
+
+> Repository can be found [here](https://github.com/Racoonia-Datapacks/bandit-game)
