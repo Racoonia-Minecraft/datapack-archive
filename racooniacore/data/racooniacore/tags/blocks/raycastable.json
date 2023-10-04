@@ -1,9 +1,8 @@
 {
-	"values":
-	[
-		"minecraft:water",
-		"minecraft:lava",
-		"#minecraft:fire",
-		"minecraft:air"
-	]
+    "values": [
+        "minecraft:water",
+        "minecraft:lava",
+        "#minecraft:fire",
+        "minecraft:air"
+    ]
 }

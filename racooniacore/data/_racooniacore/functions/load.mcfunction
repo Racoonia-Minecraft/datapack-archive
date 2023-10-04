@@ -37,4 +37,4 @@ scoreboard players set #e6 racoonia.math 2718282
 scoreboard players set #phi6 racoonia.math 1618034
 
 # Registration
-data merge storage racoonia:datapacks {racooniacore:{version:"1.2",version_number:3}}
+data merge storage racoonia:datapacks {racooniacore: {version: "1.2", version_number: 3}}
