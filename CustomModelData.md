@@ -79,6 +79,9 @@
 
 ### Racoongames (4002000 - 4000299)
 
-- `4002000`: Cod
-- `4002001`: Salmon
-- `4002002`: Tropical Fish
+- `4002001`: Boost Powerup
+- `4002002`: Fly Powerup
+- `4002003`: Speed Powerup
+- `4002100`: Cod
+- `4002101`: Salmon
+- `4002102`: Tropical Fish
