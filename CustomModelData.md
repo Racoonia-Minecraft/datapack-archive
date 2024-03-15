@@ -76,3 +76,9 @@
 > Repository can be found [here](https://github.com/Racoonia-Datapacks/bandit-game).
 
 > The list of CustomModelIds for Bandit Game can be found [here](https://github.com/Racoonia-Datapacks/bandit-game/blob/main/CustomModelData.md)
+
+### Racoongames (4002000 - 4000299)
+
+- `4002000`: Cod
+- `4002001`: Salmon
+- `4002002`: Tropical Fish
