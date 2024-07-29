@@ -71,6 +71,10 @@
 
 - `40002xx`: x Trophy Tier1
 
+### Simple Milestones (4000300-4000399)
+
+- `4000300`: 
+
 ### Bandit Game (4001000 - 4001299)
 
 > Repository can be found [here](https://github.com/Racoonia-Datapacks/bandit-game).

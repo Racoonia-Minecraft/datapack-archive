@@ -29,7 +29,7 @@
 		{"predicate": {"custom_model_data":4000215}, "model": "item/simple_milestones/flown_tier3"},
 		{"predicate": {"custom_model_data":4000216}, "model": "item/simple_milestones/walked_tier1"},
 		{"predicate": {"custom_model_data":4000217}, "model": "item/simple_milestones/walked_tier2"},
-		
+
 		{"predicate": {"custom_model_data":4000219}, "model": "item/simple_milestones/eaten_tier1"},
 		{"predicate": {"custom_model_data":4000220}, "model": "item/simple_milestones/eaten_tier2"},
 		{"predicate": {"custom_model_data":4000221}, "model": "item/simple_milestones/eaten_tier3"},
@@ -45,7 +45,7 @@
 		{"predicate": {"custom_model_data":4000231}, "model": "item/simple_milestones/afk_time_tier1"},
 		{"predicate": {"custom_model_data":4000232}, "model": "item/simple_milestones/afk_time_tier2"},
 		{"predicate": {"custom_model_data":4000233}, "model": "item/simple_milestones/afk_time_tier3"},
-		{"predicate": {"custom_model_data":4000234}, "model": "item/simple_milestones/2D_red_bed"},
+		{"predicate": {"custom_model_data":4000234}, "model": "item/simple_milestones/red_bed_2d"},
 		{"predicate": {"custom_model_data":4000235}, "model": "item/simple_milestones/clock_night"},
 		{"predicate": {"custom_model_data":4000236}, "model": "item/simple_milestones/clock_day"}
 	]

@@ -1,6 +1,6 @@
 {
-  "credit":"This part and all used files were made by gotura",
-  
+  "credit":"this part and all used files were made by gotura",
+
   "parent": "minecraft:block/orientable",
   "textures": {
     "front": "minecraft:block/carved_pumpkin",
